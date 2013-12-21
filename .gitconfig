@@ -1,0 +1,9 @@
+[user]
+	time = Tim Holland
+	email = th0114nd@gmail.com
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
+[color]
+	ui = true

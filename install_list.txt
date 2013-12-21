@@ -1,0 +1,21 @@
+osx:
+    iterm2
+    macports
+    transmission
+    spectacle
+    virtualbox
+    notational velocity
+vim+python
+solarized
+inconsolata-dz
+prezto
+ghc/Haskell platform
+texlive
+latexmk
+matplotlib
+numpy
+scipy
+Applications:
+    vlc
+    chrome
+
