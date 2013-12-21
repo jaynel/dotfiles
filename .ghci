@@ -1,0 +1,3 @@
+:set prompt "ghci> "
+:def search \x -> return $ ":!hoogle \"" ++ x ++ "\" | head -n 5"
+:def doc \x -> return $ ":!hoogle --info \"" ++ x ++ "\""
