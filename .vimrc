@@ -28,7 +28,8 @@ map! <C-W> <Esc>:wa<CR>
 map! <C-J> <Esc>:wqa<CR>
 map <C-X> :qa<CR>
 
-map! <C-G> <C-K>*G
+set noswapfile
+set nobackup
 
 nnoremap ; :
 set t_Co=256
