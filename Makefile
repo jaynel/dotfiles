@@ -1,4 +1,4 @@
-all: script binaries github-ssh dot bro portprogs git vim prefs
+all: script vim binaries github-ssh dot bro portprogs git prefs
 
 binaries: chrome iterm notation skim skype
 
