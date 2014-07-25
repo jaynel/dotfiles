@@ -1,7 +1,16 @@
-all: dot pip bro erlang haskell prezto transmission vim vlc
+all: bro github-ssh chrome dot bro erlang git haskell iterm notation \
+	skype transmission vim vlc
 
 bro:
 	gem install bropages
+
+chrome:
+	curl -L -o /tmp/googlechrome.dmg \
+			-O https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg
+	hdiutil mount -nobrowse /tmp/googlechrome.dmg
+	cp -R "/Volumes/Google Chrome.app" /Applications
+	hdiutil unmount "/Volumes/Google Chrome"
+	rm /tmp/googlechrome.dmg
 
 dot: prezto
 	ln -fv .zshrc ~/.zshrc
@@ -11,11 +20,31 @@ dot: prezto
 erlang: ports
 	port -v install erlang
 
+git:
+	git config --global user.name "Tim Holland"
+	git config --global user.email "th0114nd@gmail.com"
+
+github-ssh:
+	zsh github-ssh.zsh
+	open https://github.com/settings/ssh
+
 haskell: ports
 	port install ghc hs-cabal-install
 
+iterm:
+	curl -L -o /tmp/iterm.zip \
+			-O http://iterm2.com/downloads/stable/iTerm2_v2_0.zip 
+	unzip /tmp/iterm.zip -d /Applications
+	rm -rf /tmp/iterm.zip
+
 latexmk: ports
 	port -v install latexmk texlive-latex-extra texlive-fonts-recommended
+
+notation:
+	curl -L -o /tmp/notvel.zip \
+			-O http://notational.net/NotationalVelocity.zip
+	unzip /tmp/notvel.zip -d /Applications
+	rm /tmp/notvel.zip
 
 pip:
 	easy_install pip
@@ -26,14 +55,19 @@ ports:
 	tar -xvzf /tmp/macports.tgz -C /tmp
 	cd /tmp/Macports-2.3.1/ && ./configure && make && make install
 	/opt/local/bin/port -v selfupdate
+	rm -rf ~/.profile
 
 prezto:
 	zsh getprezto.zsh
 
-solarized:
-	rm -rf ~/.vim/bundle/vim-colors-solarized
-	git clone https://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/vim-colors-solarized
-
+skype:
+	curl -L -o /tmp/skype.dmg \
+			-O http://www.skype.com/go/getskype-macosx.dmg
+	hdiutil mount -nobrowse /tmp/skype.dmg
+	cp -R /Volumes/Skype/Skype.app /Applications
+	hdiutil unmount /Volumes/Skype
+	rm /tmp/skype.dmg
+			
 transmission: ports
 	port -v install transmission
 
@@ -49,13 +83,19 @@ vundler:
 .IGNORE: clean-uninstall
 
 clean-uninstall:
+	gem uninstall bro
 	pip uninstall powerline
 	chsh -s /bin/bash
 	rm -rf /Library/Python/2.7/site-packages/pip*.egg
 	rm -rf /usr/local/bin/pip*
-	rm -rf ~/.vim/bundle ~/.vim/autoload
+	rm -rf ~/.vim/
 	rm -rf ~/.z*
+	rm -rf .ghc
+	rm -rf "/Applications/Google Chrome.app"
+	rm -rf /Applications/iTerm.app
+	rm -rf /Applications/NotationalVelocity.app
+	rm -rf /Applications/Skype.app
 	rm -rf /opt
 	rm -rf /tmp/macports* /tmp/MacPorts*
 	rm -rf /Applications/MacPorts/
-	gem uninstall bro
+	rm -rf ~/.bro
