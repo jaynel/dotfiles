@@ -44,10 +44,11 @@ typeset -gU cdpath fpath mailpath path
 path=(
   /bin
   /sbin
+  /opt/local/{bin,sbin}
   /usr/bin
   /usr/local/{bin,sbin}
-  /opt/local/bin
   /Library/Haskell/bin
+  /Library/Python/2.7/site-packages
   /Users/Tim/bin
   $path
 )
