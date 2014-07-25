@@ -1,5 +1,5 @@
-all: bro github-ssh chrome dot bro erlang git haskell iterm notation \
-	skype transmission vim vlc
+all: bro chrome github-ssh dot bro erlang git haskell iterm notation \
+	skim skype transmission vim vlc prefs
 
 bro:
 	gem install bropages
@@ -8,7 +8,8 @@ chrome:
 	curl -L -o /tmp/googlechrome.dmg \
 			-O https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg
 	hdiutil mount -nobrowse /tmp/googlechrome.dmg
-	cp -R "/Volumes/Google Chrome.app" /Applications
+	rm -rf "/Applications/Google Chrome.app"
+	cp -R "/Volumes/Google Chrome/Google Chrome.app" /Applications
 	hdiutil unmount "/Volumes/Google Chrome"
 	rm /tmp/googlechrome.dmg
 
@@ -34,6 +35,7 @@ haskell: ports
 iterm:
 	curl -L -o /tmp/iterm.zip \
 			-O http://iterm2.com/downloads/stable/iTerm2_v2_0.zip 
+	rm -rf /Applications/iTerm.app
 	unzip /tmp/iterm.zip -d /Applications
 	rm -rf /tmp/iterm.zip
 
@@ -43,6 +45,7 @@ latexmk: ports
 notation:
 	curl -L -o /tmp/notvel.zip \
 			-O http://notational.net/NotationalVelocity.zip
+	rm -rf /Applications/NotationalVelocity.app
 	unzip /tmp/notvel.zip -d /Applications
 	rm /tmp/notvel.zip
 
@@ -57,14 +60,28 @@ ports:
 	/opt/local/bin/port -v selfupdate
 	rm -rf ~/.profile
 
+.PHONY: prefs
+prefs:
+	zsh makeprefs.zsh
+
 prezto:
 	zsh getprezto.zsh
+
+skim:
+	curl -L -o /tmp/skim.dmg \
+			-O http://downloads.sourceforge.net/project/skim-app/Skim/Skim-1.4.1/Skim-1.4.1.dmg?use_mirror=autoselect
+	hdiutil mount -nobrowse /tmp/skim.dmg
+	rm -rf /Applications/Skim.app
+	cp -fR /Volumes/Skim/Skim.app /Applications
+	hdiutil unmount /Volumes/Skim
+	rm /tmp/skim.dmg
 
 skype:
 	curl -L -o /tmp/skype.dmg \
 			-O http://www.skype.com/go/getskype-macosx.dmg
 	hdiutil mount -nobrowse /tmp/skype.dmg
-	cp -R /Volumes/Skype/Skype.app /Applications
+	rm -rf /Applications/Skype.app
+	cp -fR /Volumes/Skype/Skype.app /Applications
 	hdiutil unmount /Volumes/Skype
 	rm /tmp/skype.dmg
 			
