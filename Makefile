@@ -1,17 +1,17 @@
 all: script binaries github-ssh dot bro portprogs git vim prefs
 
-binaries: chrome iterm notation skim skype xcode
+binaries: chrome iterm notation skim skype
 
 script: bro pip
 
-portprogs: erlang haskell transmission vlc
+portprogs: erlang haskell vlc
 
 bro:
 	gem install bropages
 
 chrome:
 	curl -L -o /tmp/googlechrome.dmg \
-			-O https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg
+	        -O https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg
 	hdiutil mount -nobrowse /tmp/googlechrome.dmg
 	rm -rf "/Applications/Google Chrome.app"
 	cp -R "/Volumes/Google Chrome/Google Chrome.app" /Applications
@@ -24,43 +24,46 @@ dot: prezto
 	ln -fv .vimrc ~/.vimrc
 
 erlang: ports
-	port -v install erlang
+	/opt/local/bin/port -v install erlang +wxwidgets
 
 git:
 	git config --global user.name "Tim Holland"
 	git config --global user.email "th0114nd@gmail.com"
 
+# Need to manually paste key in, but it's already in the clipboard.
 github-ssh:
 	zsh github-ssh.zsh
 	open https://github.com/settings/ssh
 
 haskell: ports
-	port install ghc hs-cabal-install
+	/opt/local/bin/port install ghc hs-cabal-install
 
 iterm:
 	curl -L -o /tmp/iterm.zip \
-			-O http://iterm2.com/downloads/stable/iTerm2_v2_0.zip 
+	        -O http://iterm2.com/downloads/stable/iTerm2_v2_0.zip 
 	rm -rf /Applications/iTerm.app
 	unzip /tmp/iterm.zip -d /Applications
 	rm -rf /tmp/iterm.zip
 
 latexmk: ports
-	port -v install latexmk texlive-latex-extra texlive-fonts-recommended
+	/opt/local/bin/port -v install latexmk texlive-latex-extra texlive-fonts-recommended
 
 notation:
 	curl -L -o /tmp/notvel.zip \
-			-O http://notational.net/NotationalVelocity.zip
-	rm -rf /Applications/NotationalVelocity.app
+	        -O http://notational.net/NotationalVelocity.zip
+	rm -rf "/Applications/Notational Velocity.app"
+	rm -rf /Applications/__MACOSX
 	unzip /tmp/notvel.zip -d /Applications
 	rm /tmp/notvel.zip
+	rm -rf /Applications/__MACOSX
 
 pip:
 	easy_install pip
 
 ports:
 	xcode-select --install
-	curl -o /tmp/macports.tgz \
-		https://distfiles.macports.org/MacPorts/MacPorts-2.3.1.tar.gz
+	curl -L -o /tmp/macports.tgz \
+	        -O https://distfiles.macports.org/MacPorts/MacPorts-2.3.1.tar.gz
 	tar -xvzf /tmp/macports.tgz -C /tmp
 	cd /tmp/Macports-2.3.1/ && ./configure && make && make install
 	/opt/local/bin/port -v selfupdate
@@ -75,7 +78,7 @@ prezto:
 
 skim:
 	curl -L -o /tmp/skim.dmg \
-			-O http://downloads.sourceforge.net/project/skim-app/Skim/Skim-1.4.1/Skim-1.4.1.dmg?use_mirror=autoselect
+	        -O http://downloads.sourceforge.net/project/skim-app/Skim/Skim-1.4.1/Skim-1.4.1.dmg?use_mirror=autoselect
 	hdiutil mount -nobrowse /tmp/skim.dmg
 	rm -rf /Applications/Skim.app
 	cp -fR /Volumes/Skim/Skim.app /Applications
@@ -84,7 +87,7 @@ skim:
 
 skype:
 	curl -L -o /tmp/skype.dmg \
-			-O http://www.skype.com/go/getskype-macosx.dmg
+	        -O http://www.skype.com/go/getskype-macosx.dmg
 	hdiutil mount -nobrowse /tmp/skype.dmg
 	rm -rf /Applications/Skype.app
 	cp -fR /Volumes/Skype/Skype.app /Applications
@@ -93,24 +96,22 @@ skype:
 
 spectacle:
 	curl -L -o /tmp/spectacle.zip \
-			-O https://s3.amazonaws.com/spectacle/downloads/Spectacle+0.8.5.zip
+	        -O https://s3.amazonaws.com/spectacle/downloads/Spectacle+0.8.5.zip
 	rm -rf /Applications/Spectacle.app
 	unzip /tmp/spectacle.zip -d /Applications
 	rm -rf /tmp/spectacle.zip
 
 			
 transmission: ports
-	port -v install transmission
+	/opt/local/bin/port -v install transmission
 
-xcode:
-	sh getxcode.sh https://developer.apple.com/devcenter/download.action?path=/Developer_Tools/xcode_6_beta_4_o2p8fz/xcode_6_beta_4.dmg
-	
-	
 vim: vundler
 	echo ":quit" | vim -c PluginInstall
 
-vlc: ports
-	port -v install vlc
+vlc: #ports
+	/opt/local/bin/port -v install dbus && /opt/local/bin/port -f activate dbus
+	/opt/local/bin/port -v install avahi && /opt/local/bin/port -f activate avahi
+	/opt/local/bin/port -v install vlc
 
 vundler:
 	git clone https://github.com/gmarik/Vundle.vim ~/.vim/bundle/Vundle.vim
@@ -128,7 +129,7 @@ clean-uninstall:
 	rm -rf .ghc
 	rm -rf "/Applications/Google Chrome.app"
 	rm -rf /Applications/iTerm.app
-	rm -rf /Applications/NotationalVelocity.app
+	rm -rf "/Applications/Notational Velocity.app"
 	rm -rf /Applications/Skype.app
 	rm -rf /Applications/Xcode.app
 	rm -rf /opt
