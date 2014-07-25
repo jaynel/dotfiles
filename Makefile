@@ -4,7 +4,7 @@ binaries: chrome iterm notation skim skype
 
 script: bro pip
 
-portprogs: erlang haskell vlc
+portprogs: erlang haskell latex vlc
 
 bro:
 	gem install bropages
@@ -45,7 +45,7 @@ iterm:
 	unzip /tmp/iterm.zip -d /Applications
 	rm -rf /tmp/iterm.zip
 
-latexmk: ports
+latex: ports
 	/opt/local/bin/port -v install latexmk texlive-latex-extra texlive-fonts-recommended
 
 notation:
