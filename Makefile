@@ -1,5 +1,10 @@
-all: bro chrome github-ssh dot bro erlang git haskell iterm notation \
-	skim skype transmission vim vlc prefs
+all: gems binaries github-ssh dot bro portprogs git vim prefs
+
+binaries: chrome iterm notation skim skype xcode
+
+script: bro pip
+
+portprogs: erlang haskell transmission vlc
 
 bro:
 	gem install bropages
@@ -53,6 +58,7 @@ pip:
 	easy_install pip
 
 ports:
+	xcode-select --install
 	curl -o /tmp/macports.tgz \
 		https://distfiles.macports.org/MacPorts/MacPorts-2.3.1.tar.gz
 	tar -xvzf /tmp/macports.tgz -C /tmp
@@ -84,10 +90,22 @@ skype:
 	cp -fR /Volumes/Skype/Skype.app /Applications
 	hdiutil unmount /Volumes/Skype
 	rm /tmp/skype.dmg
+
+spectacle:
+	curl -L -o /tmp/spectacle.zip \
+			-O https://s3.amazonaws.com/spectacle/downloads/Spectacle+0.8.5.zip
+	rm -rf /Applications/Spectacle.app
+	unzip /tmp/spectacle.zip -d /Applications
+	rm -rf /tmp/spectacle.zip
+
 			
 transmission: ports
 	port -v install transmission
 
+xcode:
+	sh getxcode.sh https://developer.apple.com/devcenter/download.action?path=/Developer_Tools/xcode_6_beta_4_o2p8fz/xcode_6_beta_4.dmg
+	
+	
 vim: vundler
 	echo ":quit" | vim -c PluginInstall
 
@@ -112,6 +130,7 @@ clean-uninstall:
 	rm -rf /Applications/iTerm.app
 	rm -rf /Applications/NotationalVelocity.app
 	rm -rf /Applications/Skype.app
+	rm -rf /Applications/Xcode.app
 	rm -rf /opt
 	rm -rf /tmp/macports* /tmp/MacPorts*
 	rm -rf /Applications/MacPorts/
