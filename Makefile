@@ -1,10 +1,13 @@
+
+PORT := /opt/local/bin/port
+
 all: script vim binaries github-ssh dot bro portprogs git prefs
 
 binaries: chrome iterm notation skim skype
 
 script: bro pip
 
-portprogs: erlang haskell latex vlc
+portprogs: erlang haskell latex pastebin transmission vlc
 
 bro:
 	gem install bropages
@@ -23,8 +26,8 @@ dot: prezto
 	ln -fv .zshenv ~/.zshenv
 	ln -fv .vimrc ~/.vimrc
 
-erlang: ports
-	/opt/local/bin/port -v install erlang +wxwidgets
+erlang: ensure-ports
+	$(PORT) -v install erlang +wxwidgets
 
 git:
 	git config --global user.name "Tim Holland"
@@ -35,8 +38,8 @@ github-ssh:
 	zsh github-ssh.zsh
 	open https://github.com/settings/ssh
 
-haskell: ports
-	/opt/local/bin/port install ghc hs-cabal-install
+haskell: ensure-ports
+	$(PORT) install ghc hs-cabal-install
 
 iterm:
 	curl -L -o /tmp/iterm.zip \
@@ -45,8 +48,8 @@ iterm:
 	unzip /tmp/iterm.zip -d /Applications
 	rm -rf /tmp/iterm.zip
 
-latex: ports
-	/opt/local/bin/port -v install latexmk texlive-latex-extra texlive-fonts-recommended
+latex: ensure-ports
+	$(PORT) -v install latexmk texlive-latex-extra texlive-fonts-recommended
 
 notation:
 	curl -L -o /tmp/notvel.zip \
@@ -57,16 +60,22 @@ notation:
 	rm /tmp/notvel.zip
 	rm -rf /Applications/__MACOSX
 
+pastebin: ensure-ports
+	$(PORT) install pastebinit
+
 pip:
 	easy_install pip
 
+ensure-ports:
+	(test -e $(PORT) && 0)  || make ports
+
 ports:
-	xcode-select --install
+	xcode-select --install || true
 	curl -L -o /tmp/macports.tgz \
 	        -O https://distfiles.macports.org/MacPorts/MacPorts-2.3.1.tar.gz
 	tar -xvzf /tmp/macports.tgz -C /tmp
 	cd /tmp/Macports-2.3.1/ && ./configure && make && make install
-	/opt/local/bin/port -v selfupdate
+	$(PORT) -v selfupdate
 	rm -rf ~/.profile
 
 .PHONY: prefs
@@ -100,30 +109,32 @@ spectacle:
 	rm -rf /Applications/Spectacle.app
 	unzip /tmp/spectacle.zip -d /Applications
 	rm -rf /tmp/spectacle.zip
-
 			
-transmission: ports
-	/opt/local/bin/port -v install transmission
+transmission: ensure-ports
+	$(PORT) -v install transmission
+
+update: vundler prezto
+	$(PORT) -v selfupdate
+	$(PORT) -v upgrade outdated
+	gem update all
 
 vim: vundler
-	echo ":quit" | vim -c PluginInstall
+	vim +PluginInstall +qall
 
-vlc: #ports
-	/opt/local/bin/port -v install dbus && /opt/local/bin/port -f activate dbus
-	/opt/local/bin/port -v install avahi && /opt/local/bin/port -f activate avahi
-	/opt/local/bin/port -v install vlc
+vlc: ensure-ports
+	$(PORT) -fv install vlc
 
 vundler:
-	git clone https://github.com/gmarik/Vundle.vim ~/.vim/bundle/Vundle.vim
+	(test -d ~/.vim/bundle/Vundle.vim/.git && \
+		cd ~/.vim/bundle/Vundle.vim/ && \
+		git pull origin master) \
+	|| git clone https://github.com/gmarik/Vundle.vim ~/.vim/bundle/Vundle.vim
 
 .IGNORE: clean-uninstall
 
 clean-uninstall:
 	gem uninstall bro
-	pip uninstall powerline
 	chsh -s /bin/bash
-	rm -rf /Library/Python/2.7/site-packages/pip*.egg
-	rm -rf /usr/local/bin/pip*
 	rm -rf ~/.vim/
 	rm -rf ~/.z*
 	rm -rf .ghc
