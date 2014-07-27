@@ -154,7 +154,14 @@ spectacle:
 	rm -rf /tmp/spectacle.zip
 			
 transmission: ensure-ports
-	$(PORT) -v install transmission
+	curl -L -o /tmp/transmission.dmg \
+			-O https://transmission.cachefly.net/Transmission-2.84.dmg
+	hdiutil mount -nobrowse /tmp/transmission.dmg
+	rm -rf /Applications/Transmission.app
+	cp -R /Volumes/Transmission-2.84/Transmission.app /Applications
+	hdiutil unmount /Volumes/Transmission-2.84
+	rm -rf /tmp/vlc.dmg
+	#$(PORT) -v install transmission
 
 update: vundler prezto
 	$(PORT) -v selfupdate
@@ -166,7 +173,14 @@ vim: vundler
 	vim +PluginInstall +qall
 
 vlc: ensure-ports
-	$(PORT) -fv install vlc
+	curl -L -o /tmp/vlc.dmg \
+			-O http://www.gtlib.gatech.edu/pub/videolan/vlc/2.1.5/macosx/vlc-2.1.5.dmg
+	hdiutil mount -nobrowse /tmp/vlc.dmg
+	rm -rf /Applications/VLC.app
+	cp -R /Volumes/vlc-2.1.5/VLC.app /Applications
+	hdiutil unmount /Volumes/vlc-2.1.5
+	rm -rf /tmp/vlc.dmg
+	#$(PORT) -fv install vlc
 
 vundler:
 	(test -d ~/.vim/bundle/Vundle.vim/.git && \
