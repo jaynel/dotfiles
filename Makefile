@@ -38,7 +38,7 @@ git:
 github-ssh:
 	zsh github-ssh.zsh
 	open https://github.com/settings/ssh
-	curl -L -o /tmp/github.zip
+	curl -L -o /tmp/github.zip \
 	        -O https://central.github.com/mac/latest
 	unzip /tmp/github.zip -d /Applications
 	rm -rf /tmp/github.zip
@@ -202,7 +202,7 @@ yosemite:
 
 clean-uninstall:
 	gem uninstall bro
-	chsh -s /bin/bash
+	chsh -s /bin/bash tim
 	rm -rf ~/.vim/
 	rm -rf ~/.z*
 	rm -rf .ghc
