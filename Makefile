@@ -1,6 +1,6 @@
 PORT := /opt/local/bin/port
 
-all: script vim binaries github-ssh pia dot bro portprogs lang git clean-pia prefs
+all: script vim binaries github-ssh pia bro portprogs lang git clean-pia prefs
 
 binaries: chrome iterm notation skim skype pia
 
@@ -169,7 +169,7 @@ update: vundler prezto
 	gem update all
 	cabal update
 
-vim: vundler
+vim: dot vundler
 	vim +PluginInstall +qall
 
 vlc: ensure-ports
