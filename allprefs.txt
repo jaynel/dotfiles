@@ -1,0 +1,2653 @@
+{
+    "Apple Global Domain" =     {
+        AppleAntiAliasingThreshold = 4;
+        AppleLanguages =         (
+            en,
+            fr,
+            de,
+            "zh-Hans",
+            "zh-Hant",
+            ja,
+            es,
+            it,
+            nl,
+            ko,
+            pt,
+            "pt-PT",
+            da,
+            fi,
+            nb,
+            sv,
+            ru,
+            pl,
+            tr,
+            ar,
+            th,
+            cs,
+            hu,
+            ca,
+            hr,
+            el,
+            he,
+            ro,
+            sk,
+            uk,
+            id,
+            ms,
+            vi
+        );
+        AppleLocale = "en_US";
+        AppleMiniaturizeOnDoubleClick = 0;
+        NSPreferredWebServices =         {
+            NSWebServicesProviderWebSearch =             {
+                NSDefaultDisplayName = Google;
+                NSProviderIdentifier = "com.google.www";
+            };
+        };
+        NSUserDictionaryReplacementItems =         (
+        );
+        "com.apple.springing.delay" = "0.5";
+        "com.apple.springing.enabled" = 1;
+    };
+    "com.apple.AddressBook" =     {
+        ABBirthDayVisible = 1;
+        ABMetaDataChangeCount = 6;
+        ABMetadataLastOilChange = "2014-07-27 17:41:45 +0000";
+        ABVersion = 1365;
+    };
+    "com.apple.AppleMultitouchTrackpad" =     {
+        Clicking = 0;
+        DragLock = 0;
+        Dragging = 0;
+        TrackpadCornerSecondaryClick = 0;
+        TrackpadFiveFingerPinchGesture = 2;
+        TrackpadFourFingerHorizSwipeGesture = 2;
+        TrackpadFourFingerPinchGesture = 2;
+        TrackpadFourFingerVertSwipeGesture = 2;
+        TrackpadHandResting = 1;
+        TrackpadHorizScroll = 1;
+        TrackpadMomentumScroll = 1;
+        TrackpadPinch = 1;
+        TrackpadRightClick = 1;
+        TrackpadRotate = 1;
+        TrackpadScroll = 1;
+        TrackpadThreeFingerDrag = 0;
+        TrackpadThreeFingerHorizSwipeGesture = 2;
+        TrackpadThreeFingerTapGesture = 2;
+        TrackpadThreeFingerVertSwipeGesture = 2;
+        TrackpadTwoFingerDoubleTapGesture = 1;
+        TrackpadTwoFingerFromRightEdgeSwipeGesture = 3;
+        USBMouseStopsTrackpad = 0;
+        UserPreferences = 1;
+        version = 5;
+    };
+    "com.apple.BezelServices" =     {
+        BatteryHistory =         {
+        };
+        afActionHistory =         {
+        };
+        randomData = <73a39619 1243444f 6baf50b5 7ddf03b7>;
+    };
+    "com.apple.CoreGraphics" =     {
+        DisplayUseForcedGray = 0;
+        DisplayUseInvertedPolarity = 0;
+    };
+    "com.apple.HIToolbox" =     {
+        AppleDateResID =         {
+            smRoman = 0;
+        };
+        AppleNumberResID =         {
+            smRoman = 0;
+        };
+        AppleTimeResID =         {
+            smRoman = 0;
+        };
+    };
+    "com.apple.InputMethodKit.UserDictionary" =     {
+        DidMigrateLegacySpellCheckEntries = 1;
+    };
+    "com.apple.LaunchServices" =     {
+        LSHandlers =         (
+        );
+    };
+    "com.apple.PubSubAgent" =     {
+        TigerMigrationCompleted = 1;
+    };
+    "com.apple.QuickLookDaemon" =     {
+        QLMTCacheSizeLastCheckAbsoluteTime = "428175699.983066";
+    };
+    "com.apple.Safari" =     {
+        CachedBookmarksFileDate = 0;
+        CachedBookmarksFileSize = 0;
+        DidMigrateNewBookmarkSheetToReadingListDefault = 1;
+        DidMigrateTabsToLinksForReaderKey = 1;
+        DidMigrateToMoreRestrictiveFileURLPolicy = 1;
+        DidMigrateWebKit1Preferences = 1;
+        DidUnsubscribeFromRSSFeeds = 1;
+        HasPendingDefaultSearchProvider = 0;
+        LastApplicationCacheMessageTraceTime = "428176050.005048";
+        LastExtensionMessageTraceTime = "428176048.874772";
+        LastInstalledPlugInsMessageTraceTime = "428176055.934383";
+        LastOSVersionSafariWasLaunchedOn = "10.9";
+        LocalFileRestrictionsEnabled = 1;
+        NewestLaunchedSafariVersion = "537.71";
+        OpenWindows =         (
+            BrowserWindowControllerMac
+        );
+        RemoteConfigurationLastUpdateFailed = 0;
+        RemoteConfigurationLastUpdateTime = "428176050.087081";
+        SearchProviderIdentifierMigratedToSystemPreference = 1;
+        SidebarViewModeIdentifier = Bookmarks;
+        SuccessfulLaunchTimestamp = "4.281761e+08";
+        UserStyleSheetEnabled = 0;
+        WebKitRespectStandardStyleKeyEquivalents = 1;
+        "com.apple.Safari.ContentPageGroupIdentifier.WebKit2DefaultTextEncodingName" = "iso-8859-1";
+        "com.apple.Safari.ContentPageGroupIdentifier.WebKit2StorageBlockingPolicy" = 1;
+    };
+    "com.apple.ServicesMenu.Services" =     {
+        NSServices =         {
+            CFPrincipalLocalizations =             (
+                English,
+                en
+            );
+            CFVendedServices =             (
+                                {
+                    NSBundlePath = "/System/Library/Services/Show Map.workflow";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "Show Map";
+                        default = "Show Map";
+                    };
+                    NSMessage = runWorkflowAsService;
+                    NSRequiredContext =                     {
+                        NSTextContent = Address;
+                    };
+                    NSSendTypes =                     (
+                        "public.utf8-plain-text"
+                    );
+                    NSUUID = <25bb75a8 92dea035 a0d60c0b 2b3bbe11>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.AppleSpell";
+                    NSBundlePath = "/System/Library/Services/AppleSpell.service";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSLanguages =                     (
+                        "pt_PT",
+                        "en_GB",
+                        "en_AU",
+                        "en_CA",
+                        nl,
+                        en,
+                        fr,
+                        de,
+                        it,
+                        "pt_BR",
+                        es,
+                        sv,
+                        da,
+                        ru,
+                        Multilingual
+                    );
+                    NSMenuItem =                     {
+                    };
+                    NSMessage = Apple;
+                    NSPortName = AppleSpell;
+                    NSSpellChecker = Apple;
+                    NSUUID = <94a47cac 3ea972ac 13d6eb1f 1abe8324>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.Automator";
+                    NSBundlePath = "/Applications/Automator.app";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "Create Service";
+                        default = "Create Service";
+                    };
+                    NSMessage = makeNewServiceWithPasteboard;
+                    NSPortName = Automator;
+                    NSSendTypes =                     (
+                        NSStringPboardType,
+                        NSFilenamesPboardType
+                    );
+                    NSUUID = <c297471a d713b044 67c93eff b5205220>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.Automator";
+                    NSBundlePath = "/Applications/Automator.app";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "Create Workflow";
+                        default = "Create Workflow";
+                    };
+                    NSMessage = makeNewWorkflowServiceWithPasteboard;
+                    NSPortName = Automator;
+                    NSSendTypes =                     (
+                        NSStringPboardType,
+                        NSFilenamesPboardType
+                    );
+                    NSUUID = <8f9fe16b dc2d8370 90ed34b3 364a1587>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.BluetoothFileExchange";
+                    NSBundlePath = "/Applications/Utilities/Bluetooth File Exchange.app";
+                    NSKeyEquivalent =                     {
+                        default = B;
+                    };
+                    NSMenuItem =                     {
+                        English = "Send File To Bluetooth Device";
+                        default = "Send File To Bluetooth Device";
+                    };
+                    NSMessage = sendFileUsingBluetoothOBEXService;
+                    NSPortName = BluetoothFileExchange;
+                    NSRequiredContext =                     {
+                        NSTextContent = FilePath;
+                    };
+                    NSRestricted = 1;
+                    NSSendTypes =                     (
+                        "public.plain-text",
+                        NSFilenamesPboardType
+                    );
+                    NSUUID = <ae1fc31a 04053cc2 0979b8e1 dc3fc1a5>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.ChineseTextConverterService";
+                    NSBundlePath = "/System/Library/Services/ChineseTextConverterService.app";
+                    NSKeyEquivalent =                     {
+                        English = "$^@C";
+                        default = "$^@C";
+                    };
+                    NSMenuItem =                     {
+                        English = "Convert Text to Traditional Chinese";
+                        default = "Convert Text from Simplified to Traditional Chinese";
+                    };
+                    NSMessage = convertTextToTraditionalChinese;
+                    NSPortName = ChineseTextConverterService;
+                    NSRequiredContext =                     {
+                        NSTextTransformation = "Simplified-Traditional";
+                    };
+                    NSReturnTypes =                     (
+                        "public.rtf",
+                        "public.text"
+                    );
+                    NSSendTypes =                     (
+                        "public.rtf",
+                        "public.text"
+                    );
+                    NSTimeout = 600000;
+                    NSUUID = <639a4567 db1862f3 74192b43 6b864c5f>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.ChineseTextConverterService";
+                    NSBundlePath = "/System/Library/Services/ChineseTextConverterService.app";
+                    NSKeyEquivalent =                     {
+                        English = "$^~@C";
+                        default = "$^~@C";
+                    };
+                    NSMenuItem =                     {
+                        English = "Convert Text to Simplified Chinese";
+                        default = "Convert Text from Traditional to Simplified Chinese";
+                    };
+                    NSMessage = convertTextToSimplifiedChinese;
+                    NSPortName = ChineseTextConverterService;
+                    NSRequiredContext =                     {
+                        NSTextTransformation = "Traditional-Simplified";
+                    };
+                    NSReturnTypes =                     (
+                        "public.rtf",
+                        "public.text"
+                    );
+                    NSSendTypes =                     (
+                        "public.rtf",
+                        "public.text"
+                    );
+                    NSTimeout = 600000;
+                    NSUUID = <58b30e0c d1277e7b e2f829b2 28f6d7f1>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.ChineseTextConverterService";
+                    NSBundlePath = "/System/Library/Services/ChineseTextConverterService.app";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "Convert Text to Full Width";
+                        default = "Convert Text to Full Width";
+                    };
+                    NSMessage = convertTextToFullWidth;
+                    NSPortName = ChineseTextConverterService;
+                    NSReturnTypes =                     (
+                        "public.rtf",
+                        "public.text"
+                    );
+                    NSSendTypes =                     (
+                        "public.rtf",
+                        "public.text"
+                    );
+                    NSTimeout = 600000;
+                    NSUUID = <aac2d0de 72e0ca73 a0368f40 90bf8dce>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.ChineseTextConverterService";
+                    NSBundlePath = "/System/Library/Services/ChineseTextConverterService.app";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "Convert Text to Half Width";
+                        default = "Convert Text to Half Width";
+                    };
+                    NSMessage = convertTextToHalfWidth;
+                    NSPortName = ChineseTextConverterService;
+                    NSReturnTypes =                     (
+                        "public.rtf",
+                        "public.text"
+                    );
+                    NSSendTypes =                     (
+                        "public.rtf",
+                        "public.text"
+                    );
+                    NSTimeout = 600000;
+                    NSUUID = <eb8317d9 7906b5ea 2913a26e b24ba73b>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.Dictionary";
+                    NSBundlePath = "/Applications/Dictionary.app";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "Look Up in Dictionary";
+                        default = "Look Up in Dictionary";
+                    };
+                    NSMessage = doLookupService;
+                    NSPortName = Dictionary;
+                    NSSendTypes =                     (
+                        NSStringPboardType
+                    );
+                    NSUUID = <ab29684f 6433538d 6b8720d5 8b3bd4a0>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.DiskUtility";
+                    NSBundlePath = "/Applications/Utilities/Disk Utility.app";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "Disk Utility/Calculate Image Checksum (CRC-32)";
+                        default = "Disk Utility/Calculate Image Checksum (CRC-32)";
+                    };
+                    NSMessage = checksumCRC32;
+                    NSPortName = "Disk Utility";
+                    NSSendTypes =                     (
+                        NSStringPboardType
+                    );
+                    NSUUID = <9b9774a8 d7cc23ae 5acfeebc 471dc03b>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.DiskUtility";
+                    NSBundlePath = "/Applications/Utilities/Disk Utility.app";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "Disk Utility/Calculate Image Checksum (MD-5)";
+                        default = "Disk Utility/Calculate Image Checksum (MD-5)";
+                    };
+                    NSMessage = checksumMD5;
+                    NSPortName = "Disk Utility";
+                    NSSendTypes =                     (
+                        NSStringPboardType
+                    );
+                    NSUUID = <02f9c075 5164cb6e 05caa1d3 b778032a>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.FolderActionsSetup";
+                    NSBundlePath = "/System/Library/CoreServices/Folder Actions Setup.app";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "Folder Actions Setup\\U2026";
+                        default = "Folder Actions Setup";
+                    };
+                    NSMessage = serviceConfigure;
+                    NSPortName = "Folder Actions Setup";
+                    NSRestricted = 1;
+                    NSSendTypes =                     (
+                        NSFilenamesPboardType
+                    );
+                    NSUUID = <41ab7b27 ef8a5632 98d94d53 1fc3dec9>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.FontBook";
+                    NSBundlePath = "/Applications/Font Book.app";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "Font Book/Create Font Library From Text";
+                        default = "Font Book/Create Font Library From Text";
+                    };
+                    NSMessage = createLibraryFromText;
+                    NSPortName = "Font Book";
+                    NSSendTypes =                     (
+                        NSRTFPboardType,
+                        NSRTFDPboardType,
+                        NSHTMLPboardType,
+                        NSURLPboardType,
+                        NSFilenamesPboardType
+                    );
+                    NSUUID = <7868722b f1f2a6b2 59018df5 9142cd44>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.FontBook";
+                    NSBundlePath = "/Applications/Font Book.app";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "Font Book/Create Collection From Text";
+                        default = "Font Book/Create Collection From Text";
+                    };
+                    NSMessage = createCollectionFromText;
+                    NSPortName = "Font Book";
+                    NSSendTypes =                     (
+                        NSRTFPboardType,
+                        NSRTFDPboardType,
+                        NSHTMLPboardType,
+                        NSURLPboardType,
+                        NSFilenamesPboardType
+                    );
+                    NSUUID = <c19ee9aa fe6cbcfa 9ec692a1 4d277b3e>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.Grab";
+                    NSBundlePath = "/Applications/Utilities/Grab.app";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "Capture Selection from Screen";
+                        default = "Capture Selection from Screen";
+                    };
+                    NSMessage = variableSelection;
+                    NSPortName = Grab;
+                    NSReturnTypes =                     (
+                        "public.tiff"
+                    );
+                    NSUUID = <27f2ecbb 864a74fe 62ad5e3c afa446d0>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.Grab";
+                    NSBundlePath = "/Applications/Utilities/Grab.app";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "Capture Full Screen";
+                        default = "Capture Full Screen";
+                    };
+                    NSMessage = screenSelection;
+                    NSPortName = Grab;
+                    NSReturnTypes =                     (
+                        "public.tiff"
+                    );
+                    NSUUID = <94146270 f14c0189 7cceae9a 4aa00741>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.Grab";
+                    NSBundlePath = "/Applications/Utilities/Grab.app";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "Capture Screen using Timer";
+                        default = "Capture Screen using Timer";
+                    };
+                    NSMessage = timedSelection;
+                    NSPortName = Grab;
+                    NSReturnTypes =                     (
+                        "public.tiff"
+                    );
+                    NSTimeout = 60000;
+                    NSUUID = <4dabccf1 9358eca6 d4ff827d ab5e8b1f>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.ImageCaptureService";
+                    NSBundlePath = "/System/Library/Services/ImageCaptureService.app";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "Import Image";
+                        default = "Import Image";
+                    };
+                    NSMessage = ImportImage;
+                    NSPortName = ImageCaptureService;
+                    NSReturnTypes =                     (
+                        NSTIFFPboardType
+                    );
+                    NSTimeout = 600000;
+                    NSUUID = <d7d14f27 1b0cb2d4 1dfeafd2 61ba7c87>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.OpenSpell";
+                    NSBundlePath = "/System/Library/Services/OpenSpell.service";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSLanguages =                     (
+                        "*"
+                    );
+                    NSMenuItem =                     {
+                    };
+                    NSMessage = Open;
+                    NSPortName = OpenSpell;
+                    NSSpellChecker = Open;
+                    NSUUID = <5841c98b 8f642c3c 546dc01a 8b5565c9>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.Preview";
+                    NSBundlePath = "/Applications/Preview.app";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "Preview/Open images";
+                        default = "Preview/Open images";
+                    };
+                    NSMessage = serviceOpenImage;
+                    NSPortName = Preview;
+                    NSSendTypes =                     (
+                        NSTIFFPboardType
+                    );
+                    NSUUID = <7447f8d1 63f2b4c1 8b21f8e3 53272e08>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.QuickTime.service.encodeSelectedAudioFiles";
+                    NSBundlePath = "/System/Library/Services/Encode Selected Audio Files.workflow";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "Encode Selected Audio Files";
+                        default = "Encode Selected Audio Files";
+                    };
+                    NSMessage = runWorkflowAsService;
+                    NSRequiredContext =                     {
+                        NSApplicationIdentifier = "com.apple.finder";
+                    };
+                    NSSendFileTypes =                     (
+                        "public.audio"
+                    );
+                    NSUUID = <75b80478 e6c442fc 742dd955 78b7d290>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.Safari";
+                    NSBundlePath = "/Applications/Safari.app";
+                    NSKeyEquivalent =                     {
+                        default = L;
+                    };
+                    NSMenuItem =                     {
+                        English = "Search With %WebSearchProvider@";
+                        default = "Search With %WebSearchProvider@";
+                    };
+                    NSMessage = searchWithWebSearchProvider;
+                    NSPortName = Safari;
+                    NSSendTypes =                     (
+                        "public.utf8-plain-text"
+                    );
+                    NSUUID = <d99fb40c bf1c8e4f 0de4c51a 4b81ea0a>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.Safari";
+                    NSBundlePath = "/Applications/Safari.app";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "Add to Reading List";
+                        default = "Add to Reading List";
+                    };
+                    NSMessage = addToReadingList;
+                    NSPortName = Safari;
+                    NSRequiredContext =                     (
+                                                {
+                            NSTextContent = URL;
+                        },
+                                                {
+                            NSLinkSchemes =                             (
+                                http,
+                                https
+                            );
+                        }
+                    );
+                    NSSendTypes =                     (
+                        "public.rtf",
+                        "public.utf8-plain-text"
+                    );
+                    NSUUID = <9b4e7137 2fe190d3 3115d4f5 b548ebb5>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.ScriptEditor2";
+                    NSBundlePath = "/Applications/Utilities/AppleScript Editor.app";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "Script Editor/Make New AppleScript";
+                        default = "Script Editor/Make New AppleScript";
+                    };
+                    NSMessage = makeNewAppleScript;
+                    NSPortName = "Script Editor";
+                    NSSendTypes =                     (
+                        NSStringPboardType
+                    );
+                    NSUUID = <2f5708cd 09b40147 4b7b6a42 b9c1903d>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.ScriptEditor2";
+                    NSBundlePath = "/Applications/Utilities/AppleScript Editor.app";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "Script Editor/Run as AppleScript";
+                        default = "Script Editor/Run as AppleScript";
+                    };
+                    NSMessage = runAsAppleScript;
+                    NSPortName = "Script Editor";
+                    NSRestricted = 1;
+                    NSSendTypes =                     (
+                        NSStringPboardType
+                    );
+                    NSUUID = <5dfdf65c 407db640 b391997b e0518a21>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.ScriptEditor2";
+                    NSBundlePath = "/Applications/Utilities/AppleScript Editor.app";
+                    NSKeyEquivalent =                     {
+                        default = "*";
+                    };
+                    NSMenuItem =                     {
+                        English = "Script Editor/Get Result of AppleScript";
+                        default = "Script Editor/Get Result of AppleScript";
+                    };
+                    NSMessage = runAsAppleScript;
+                    NSPortName = "Script Editor";
+                    NSRestricted = 1;
+                    NSReturnTypes =                     (
+                        NSRTFDPboardType,
+                        NSRTFPboardType,
+                        NSStringPboardType
+                    );
+                    NSSendTypes =                     (
+                        NSStringPboardType
+                    );
+                    NSUUID = <ddbfc842 ddef6ed6 243dbfbd b6773fcb>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.SpotlightService";
+                    NSBundlePath = "/System/Library/Services/Spotlight.service";
+                    NSKeyEquivalent =                     {
+                        default = F;
+                    };
+                    NSMenuItem =                     {
+                        English = Spotlight;
+                        default = "SEARCH_WITH_SPOTLIGHT";
+                    };
+                    NSMessage = doSearchWithSpotlight;
+                    NSPortName = SpotlightService;
+                    NSSendTypes =                     (
+                        NSStringPboardType
+                    );
+                    NSUUID = <d9110b70 0def3e50 20f64918 f3b591ba>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.Stickies";
+                    NSBundlePath = "/Applications/Stickies.app";
+                    NSKeyEquivalent =                     {
+                        English = Y;
+                        default = Y;
+                    };
+                    NSMenuItem =                     {
+                        English = "Make New Sticky Note";
+                        default = "Make Sticky";
+                    };
+                    NSMessage = makeStickyFromTextService;
+                    NSPortName = Stickies;
+                    NSSendTypes =                     (
+                        NSStringPboardType,
+                        NSRTFPboardType,
+                        NSRTFDPboardType
+                    );
+                    NSUUID = <c8c68c50 1fc7b631 85534950 ca5e6161>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.SummaryService";
+                    NSBundlePath = "/System/Library/Services/SummaryService.app";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = Summarize;
+                        default = Summarize;
+                    };
+                    NSMessage = doSummarization;
+                    NSPortName = SummaryService;
+                    NSSendTypes =                     (
+                        NSStringPboardType
+                    );
+                    NSUUID = <b661ae0e c329956a 8df9152e a2a2e51d>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.Terminal";
+                    NSBundlePath = "/Applications/Utilities/Terminal.app";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "New Terminal at Folder";
+                        default = "New Terminal at Folder";
+                    };
+                    NSMessage = newTerminalAtFolder;
+                    NSPortName = Terminal;
+                    NSRequiredContext =                     {
+                        NSTextContent = FilePath;
+                    };
+                    NSSendFileTypes =                     (
+                        "public.directory",
+                        "com.apple.resolvable"
+                    );
+                    NSSendTypes =                     (
+                        "public.plain-text"
+                    );
+                    NSUUID = <b214249f 1bfdf088 9fc3ec2b 976fbfa1>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.Terminal";
+                    NSBundlePath = "/Applications/Utilities/Terminal.app";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "New Terminal Tab at Folder";
+                        default = "New Terminal Tab at Folder";
+                    };
+                    NSMessage = newTerminalAtFolder;
+                    NSPortName = Terminal;
+                    NSRequiredContext =                     {
+                        NSTextContent = FilePath;
+                    };
+                    NSSendFileTypes =                     (
+                        "public.directory",
+                        "com.apple.resolvable"
+                    );
+                    NSSendTypes =                     (
+                        "public.plain-text"
+                    );
+                    NSUUID = <006a16ec aadddc16 1c05ae16 1cc3ba6d>;
+                    NSUserData = "New Tab";
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.Terminal";
+                    NSBundlePath = "/Applications/Utilities/Terminal.app";
+                    NSKeyEquivalent =                     {
+                        default = M;
+                    };
+                    NSMenuItem =                     {
+                        English = "Open man Page in Terminal";
+                        default = "Open man Page in Terminal";
+                    };
+                    NSMessage = openManPage;
+                    NSPortName = Terminal;
+                    NSRequiredContext =                     {
+                        NSWordLimit = 20;
+                    };
+                    NSSendTypes =                     (
+                        "public.plain-text"
+                    );
+                    NSUUID = <c028638e b240f023 c3794ed2 5e559c39>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.Terminal";
+                    NSBundlePath = "/Applications/Utilities/Terminal.app";
+                    NSKeyEquivalent =                     {
+                        default = A;
+                    };
+                    NSMenuItem =                     {
+                        English = "Search man Page Index in Terminal";
+                        default = "Search man Page Index in Terminal";
+                    };
+                    NSMessage = searchManPages;
+                    NSPortName = Terminal;
+                    NSRequiredContext =                     {
+                        NSWordLimit = 20;
+                    };
+                    NSSendTypes =                     (
+                        "public.plain-text"
+                    );
+                    NSUUID = <44c73e21 a5897eb1 7bff2038 84875ed1>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.TextEdit";
+                    NSBundlePath = "/Applications/TextEdit.app";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "New TextEdit Window Containing Selection";
+                        default = "New TextEdit Window Containing Selection";
+                    };
+                    NSMessage = openSelection;
+                    NSPortName = TextEdit;
+                    NSSendTypes =                     (
+                        "com.apple.flat-rtfd",
+                        "public.rtf",
+                        "public.plain-text"
+                    );
+                    NSUUID = <9f616df2 279b4d23 02e96b5a 72fc7cf7>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.TextEdit";
+                    NSBundlePath = "/Applications/TextEdit.app";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "Open Selected File in TextEdit";
+                        default = "Open Selected File in TextEdit";
+                    };
+                    NSMessage = openFile;
+                    NSPortName = TextEdit;
+                    NSRequiredContext =                     {
+                        NSTextContent = FilePath;
+                    };
+                    NSSendTypes =                     (
+                        "public.plain-text"
+                    );
+                    NSUUID = <831f8516 de659ef4 78c6696e 62e774a5>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.finder";
+                    NSBundlePath = "/System/Library/CoreServices/Finder.app";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "Finder/Open";
+                        default = "Finder/Open";
+                    };
+                    NSMessage = open;
+                    NSPortName = Finder;
+                    NSRestricted = 1;
+                    NSSendTypes =                     (
+                        NSStringPboardType,
+                        NSFilenamesPboardType,
+                        NSURLPboardType,
+                        NSMultipleTextSelectionPboardType
+                    );
+                    NSUUID = <81fbdb46 c8ac79f4 d684973e a5315786>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.finder";
+                    NSBundlePath = "/System/Library/CoreServices/Finder.app";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "Finder/Reveal in Finder";
+                        default = "Finder/Reveal";
+                    };
+                    NSMessage = reveal;
+                    NSPortName = Finder;
+                    NSRestricted = 0;
+                    NSSendTypes =                     (
+                        NSStringPboardType,
+                        NSFilenamesPboardType,
+                        NSURLPboardType,
+                        NSMultipleTextSelectionPboardType
+                    );
+                    NSUUID = <4e089b9f 1cc09425 9a048118 7a22b94a>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.finder";
+                    NSBundlePath = "/System/Library/CoreServices/Finder.app";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "Finder/Show Info in Finder";
+                        default = "Finder/Show Info";
+                    };
+                    NSMessage = showInfo;
+                    NSPortName = Finder;
+                    NSRestricted = 0;
+                    NSSendTypes =                     (
+                        NSStringPboardType,
+                        NSFilenamesPboardType,
+                        NSURLPboardType,
+                        NSMultipleTextSelectionPboardType
+                    );
+                    NSUUID = <ed782cfa 03ff97bb 5fab9ecd 3fdf8f99>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.mail";
+                    NSBundlePath = "/Applications/Mail.app";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        default = "Mail/New Email With Selection";
+                        en = "Mail/New Email With Selection";
+                    };
+                    NSMessage = mailSelection;
+                    NSPortName = Mail;
+                    NSSendTypes =                     (
+                        NSRTFDPboardType,
+                        NSRTFPboardType,
+                        NSStringPboardType,
+                        "Apple Web Archive pasteboard type"
+                    );
+                    NSUUID = <50c826ec 779ef85b 22b4fe62 d51b15f3>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.mail";
+                    NSBundlePath = "/Applications/Mail.app";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        default = "Mail/New Email To Address";
+                        en = "Mail/New Email To Address";
+                    };
+                    NSMessage = mailTo;
+                    NSPortName = Mail;
+                    NSSendTypes =                     (
+                        NSStringPboardType
+                    );
+                    NSUUID = <b6f8fcb4 43214fe3 0c4d9406 3d7fcbe8>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.services.addToiTunesAsSpokenTrack";
+                    NSBundlePath = "/System/Library/Services/Add to iTunes as a Spoken Track.workflow";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "Add to iTunes as a Spoken Track";
+                        default = "Add to iTunes as a Spoken Track";
+                    };
+                    NSMessage = runWorkflowAsService;
+                    NSSendTypes =                     (
+                        "public.utf8-plain-text"
+                    );
+                    NSUUID = <8b217854 568d47e6 bcd9b463 76fcb6bb>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.services.encodeSelectedVideoFiles";
+                    NSBundlePath = "/System/Library/Services/Encode Selected Video Files.workflow";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "Encode Selected Video Files";
+                        default = "Encode Selected Video Files";
+                    };
+                    NSMessage = runWorkflowAsService;
+                    NSRequiredContext =                     {
+                        NSApplicationIdentifier = "com.apple.finder";
+                    };
+                    NSSendFileTypes =                     (
+                        "public.movie"
+                    );
+                    NSUUID = <0bb3f94f e7ea7fea 8b4757d8 0b1d35f8>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.services.setDesktopPicture";
+                    NSBundlePath = "/System/Library/Services/Set Desktop Picture.workflow";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "Set Desktop Picture";
+                        default = "Set Desktop Picture";
+                    };
+                    NSMessage = runWorkflowAsService;
+                    NSSendFileTypes =                     (
+                        "public.image"
+                    );
+                    NSUUID = <654dbb79 d89fb5e8 6ad2b3de 442c32c9>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.services.showAddressInGoogleMaps";
+                    NSBundlePath = "/System/Library/Services/Show Address in Google Maps.workflow";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "Show Address in Google Maps";
+                        default = "Show Address in Google Maps";
+                    };
+                    NSMessage = runWorkflowAsService;
+                    NSRequiredContext =                     {
+                        NSTextContent = Address;
+                    };
+                    NSSendTypes =                     (
+                        "public.utf8-plain-text"
+                    );
+                    NSUUID = <6e68e27b c3b31434 e7fda25c 6ca5c8ff>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.speech.SpeechService";
+                    NSBundlePath = "/System/Library/Services/SpeechService.service";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "Speech/Start Speaking Text";
+                        default = "Speech/Start Speaking Text";
+                    };
+                    NSMessage = doSpeakSelectedText;
+                    NSPortName = ComAppleSpeechSpeechService;
+                    NSSendTypes =                     (
+                        NSStringPboardType
+                    );
+                    NSUUID = <f020ca33 5a1523fb 63e19172 ba29f9e0>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.speech.SpeechService";
+                    NSBundlePath = "/System/Library/Services/SpeechService.service";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "Speech/Stop Speaking";
+                        default = "Speech/Stop Speaking";
+                    };
+                    NSMessage = doStopSpeaking;
+                    NSPortName = ComAppleSpeechSpeechService;
+                    NSSendTypes =                     (
+                        NSStringPboardType
+                    );
+                    NSUUID = <b57b335e 8a27b179 c041c2d1 48d5e432>;
+                },
+                                {
+                    NSBundleIdentifier = "com.apple.systemuiserver";
+                    NSBundlePath = "/System/Library/CoreServices/SystemUIServer.app";
+                    NSKeyEquivalent =                     {
+                    };
+                    NSMenuItem =                     {
+                        English = "Open URL";
+                        default = "Open URL";
+                    };
+                    NSMessage = openURL;
+                    NSPortName = SystemUIServer;
+                    NSRestricted = 1;
+                    NSSendTypes =                     (
+                        NSURLPboardType,
+                        NSStringPboardType
+                    );
+                    NSUUID = <ad91041a 5f41d1af a933617f 60c6868e>;
+                }
+            );
+            CFVersion = 2;
+        };
+    };
+    "com.apple.SetupAssistant" =     {
+        DidSeeCloudSetup = 0;
+        DidSeeSyncSetup = 0;
+        DidSeeSyncSetup2 = 0;
+        LastCacheCleanupProductVersion = "10.9";
+        LastCacheCleanupStillRunning = 0;
+        LastPreLoginTasksPerformedBuild = 13A603;
+        LastPreLoginTasksPerformedVersion = "10.9";
+        RunNonInteractive = 0;
+        ShowKeychainSyncBuddyAtLogin = 0;
+        SkipFirstLoginOptimization = 0;
+    };
+    "com.apple.Terminal" =     {
+        "Default Window Settings" = Basic;
+        DefaultProfilesVersion = 1;
+        HasMigratedDefaults = 1;
+        "NSWindow Frame TTAppPreferences" = "212 164 637 478 0 0 1280 778 ";
+        "NSWindow Frame TTWindow Basic" = "159 232 570 366 0 0 1280 778 ";
+        ProfileCurrentVersion = "2.02";
+        SecureKeyboardEntry = 0;
+        "Startup Window Settings" = Basic;
+        "Window Settings" =         {
+            Basic =             {
+                Font = <62706c69 73743030 d4010203 04050618 19582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a4 07081112 55246e75 6c6cd409 0a0b0c0d 0e0f1056 4e535369 7a65584e 5366466c 61677356 4e534e61 6d655624 636c6173 73234026 00000000 00001010 80028003 5d4d656e 6c6f2d52 6567756c 6172d213 1415165a 24636c61 73736e61 6d655824 636c6173 73657356 4e53466f 6e74a215 17584e53 4f626a65 63745f10 0f4e534b 65796564 41726368 69766572 d11a1b54 726f6f74 80010811 1a232d32 373c424b 525b6269 72747678 868b969f a6a9b2c4 c7cc0000 00000000 01010000 00000000 001c0000 00000000 00000000 00000000 00ce>;
+                FontAntialias = 1;
+                FontWidthSpacing = "1.004032258064516";
+                ProfileCurrentVersion = "2.02";
+                name = Basic;
+                type = "Window Settings";
+            };
+            Grass =             {
+                BackgroundColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 554e5352 47425c4e 53436f6c 6f725370 61636556 24636c61 73734f10 20302e30 37343530 39383037 20302e34 36363636 36372030 2e323339 32313537 00100280 02d21011 12135a24 636c6173 736e616d 65582463 6c617373 6573574e 53436f6c 6f72a212 14584e53 4f626a65 63745f10 0f4e534b 65796564 41726368 69766572 d1171854 726f6f74 80010811 1a232d32 373b4148 4e5b6285 87898e99 a2aaadb6 c8cbd000 00000000 00010100 00000000 00001900 00000000 00000000 00000000 0000d2>;
+                CursorColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 554e5352 47425c4e 53436f6c 6f725370 61636556 24636c61 73734f10 18302e35 35363836 32373720 302e3135 36383632 37352030 00100280 02d21011 12135a24 636c6173 736e616d 65582463 6c617373 6573574e 53436f6c 6f72a212 14584e53 4f626a65 63745f10 0f4e534b 65796564 41726368 69766572 d1171854 726f6f74 80010811 1a232d32 373b4148 4e5b627d 7f818691 9aa2a5ae c0c3c800 00000000 00010100 00000000 00001900 00000000 00000000 00000000 0000ca>;
+                CursorType = 0;
+                Font = <62706c69 73743030 d4010203 04050618 19582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a4 07081112 55246e75 6c6cd409 0a0b0c0d 0e0f1056 4e535369 7a65584e 5366466c 61677356 4e534e61 6d655624 636c6173 73234028 00000000 00001010 80028003 57436f75 72696572 d2131415 165a2463 6c617373 6e616d65 5824636c 61737365 73564e53 466f6e74 a2151758 4e534f62 6a656374 5f100f4e 534b6579 65644172 63686976 6572d11a 1b54726f 6f748001 08111a23 2d32373c 424b525b 62697274 76788085 9099a0a3 acbec1c6 00000000 00000101 00000000 0000001c 00000000 00000000 00000000 000000c8>;
+                FontAntialias = 1;
+                ProfileCurrentVersion = "2.02";
+                SelectionColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 554e5352 47425c4e 53436f6c 6f725370 61636556 24636c61 73734f10 21302e37 31333732 35353120 302e3238 36323734 35322030 2e313439 30313936 31001002 8002d210 1112135a 24636c61 73736e61 6d655824 636c6173 73657357 4e53436f 6c6f72a2 1214584e 534f626a 6563745f 100f4e53 4b657965 64417263 68697665 72d11718 54726f6f 74800108 111a232d 32373b41 484e5b62 86888a8f 9aa3abae b7c9ccd1 00000000 00000101 00000000 00000019 00000000 00000000 00000000 000000d3>;
+                TextBoldColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 554e5352 47425c4e 53436f6c 6f725370 61636556 24636c61 73734f10 17312030 2e363930 31393631 20302e32 33313337 32353700 10028002 d2101112 135a2463 6c617373 6e616d65 5824636c 61737365 73574e53 436f6c6f 72a21214 584e534f 626a6563 745f100f 4e534b65 79656441 72636869 766572d1 17185472 6f6f7480 0108111a 232d3237 3b41484e 5b627c7e 80859099 a1a4adbf c2c70000 00000000 01010000 00000000 00190000 00000000 00000000 00000000 00c9>;
+                TextColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 554e5352 47425c4e 53436f6c 6f725370 61636556 24636c61 73734f10 18312030 2e393431 31373635 3320302e 36343730 35383834 00100280 02d21011 12135a24 636c6173 736e616d 65582463 6c617373 6573574e 53436f6c 6f72a212 14584e53 4f626a65 63745f10 0f4e534b 65796564 41726368 69766572 d1171854 726f6f74 80010811 1a232d32 373b4148 4e5b627d 7f818691 9aa2a5ae c0c3c800 00000000 00010100 00000000 00001900 00000000 00000000 00000000 0000ca>;
+                name = Grass;
+                type = "Window Settings";
+            };
+            Homebrew =             {
+                BackgroundColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 574e5357 68697465 5c4e5343 6f6c6f72 53706163 65562463 6c617373 4d302030 2e383939 39393939 38001003 8002d210 1112135a 24636c61 73736e61 6d655824 636c6173 73657357 4e53436f 6c6f72a2 1214584e 534f626a 6563745f 100f4e53 4b657965 64417263 68697665 72d11718 54726f6f 74800108 111a232d 32373b41 48505d64 7274767b 868f979a a3b5b8bd 00000000 00000101 00000000 00000019 00000000 00000000 00000000 000000bf>;
+                CursorBlink = 1;
+                CursorColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 554e5352 47425c4e 53436f6c 6f725370 61636556 24636c61 73734f10 21302e32 31393630 37383620 302e3939 36303738 34392030 2e313532 39343131 38001002 8002d210 1112135a 24636c61 73736e61 6d655824 636c6173 73657357 4e53436f 6c6f72a2 1214584e 534f626a 6563745f 100f4e53 4b657965 64417263 68697665 72d11718 54726f6f 74800108 111a232d 32373b41 484e5b62 86888a8f 9aa3abae b7c9ccd1 00000000 00000101 00000000 00000019 00000000 00000000 00000000 000000d3>;
+                CursorType = 0;
+                Font = <62706c69 73743030 d4010203 04050618 19582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a4 07081112 55246e75 6c6cd409 0a0b0c0d 0e0f1056 4e535369 7a65584e 5366466c 61677356 4e534e61 6d655624 636c6173 73234028 00000000 00001010 80028003 5a416e64 616c654d 6f6e6fd2 13141516 5a24636c 6173736e 616d6558 24636c61 73736573 564e5346 6f6e74a2 1517584e 534f626a 6563745f 100f4e53 4b657965 64417263 68697665 72d11a1b 54726f6f 74800108 111a232d 32373c42 4b525b62 69727476 78838893 9ca3a6af c1c4c900 00000000 00010100 00000000 00001c00 00000000 00000000 00000000 0000cb>;
+                FontAntialias = 0;
+                ProfileCurrentVersion = "2.02";
+                SelectionColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 554e5352 47425c4e 53436f6c 6f725370 61636556 24636c61 73734f10 1e302e30 33343537 38333935 20302030 2e393133 32363533 3120302e 36350010 018002d2 10111213 5a24636c 6173736e 616d6558 24636c61 73736573 574e5343 6f6c6f72 a2121458 4e534f62 6a656374 5f100f4e 534b6579 65644172 63686976 6572d117 1854726f 6f748001 08111a23 2d32373b 41484e5b 62838587 8c97a0a8 abb4c6c9 ce000000 00000001 01000000 00000000 19000000 00000000 00000000 00000000 d0>;
+                TextBoldColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 554e5352 47425c4e 53436f6c 6f725370 61636556 24636c61 73734630 20312030 00100180 02d21011 12135a24 636c6173 736e616d 65582463 6c617373 6573574e 53436f6c 6f72a212 14584e53 4f626a65 63745f10 0f4e534b 65796564 41726368 69766572 d1171854 726f6f74 80010811 1a232d32 373b4148 4e5b6269 6b6d727d 868e919a acafb400 00000000 00010100 00000000 00001900 00000000 00000000 00000000 0000b6>;
+                TextColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 554e5352 47425c4e 53436f6c 6f725370 61636556 24636c61 73734f10 22302e31 35363836 32373520 302e3939 36303738 34392030 2e303738 34333133 37350010 028002d2 10111213 5a24636c 6173736e 616d6558 24636c61 73736573 574e5343 6f6c6f72 a2121458 4e534f62 6a656374 5f100f4e 534b6579 65644172 63686976 6572d117 1854726f 6f748001 08111a23 2d32373b 41484e5b 6287898b 909ba4ac afb8cacd d2000000 00000001 01000000 00000000 19000000 00000000 00000000 00000000 d4>;
+                name = Homebrew;
+                type = "Window Settings";
+            };
+            "Man Page" =             {
+                BackgroundColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 554e5352 47425c4e 53436f6c 6f725370 61636556 24636c61 73734f10 26302e39 39363037 38343931 3220302e 39353638 36323830 37332030 2e363131 37363437 32390010 028002d2 10111213 5a24636c 6173736e 616d6558 24636c61 73736573 574e5343 6f6c6f72 a2121458 4e534f62 6a656374 5f100f4e 534b6579 65644172 63686976 6572d117 1854726f 6f748001 08111a23 2d32373b 41484e5b 628b8d8f 949fa8b0 b3bcced1 d6000000 00000001 01000000 00000000 19000000 00000000 00000000 00000000 d8>;
+                Font = <62706c69 73743030 d4010203 04050618 19582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a4 07081112 55246e75 6c6cd409 0a0b0c0d 0e0f1056 4e535369 7a65584e 5366466c 61677356 4e534e61 6d655624 636c6173 73234026 00000000 00001010 80028003 5d4d656e 6c6f2d52 6567756c 6172d213 1415165a 24636c61 73736e61 6d655824 636c6173 73657356 4e53466f 6e74a215 17584e53 4f626a65 63745f10 0f4e534b 65796564 41726368 69766572 d11a1b54 726f6f74 80010811 1a232d32 373c424b 525b6269 72747678 868b969f a6a9b2c4 c7cc0000 00000000 01010000 00000000 001c0000 00000000 00000000 00000000 00ce>;
+                FontAntialias = 1;
+                FontWidthSpacing = "1.004032258064516";
+                ProfileCurrentVersion = "2.02";
+                name = "Man Page";
+                rowCount = 48;
+                type = "Window Settings";
+            };
+            Novel =             {
+                BackgroundColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 554e5352 47425c4e 53436f6c 6f725370 61636556 24636c61 73734f10 1a302e38 37352030 2e383537 39383336 3520302e 37363536 32350010 028002d2 10111213 5a24636c 6173736e 616d6558 24636c61 73736573 574e5343 6f6c6f72 a2121458 4e534f62 6a656374 5f100f4e 534b6579 65644172 63686976 6572d117 1854726f 6f748001 08111a23 2d32373b 41484e5b 627f8183 88939ca4 a7b0c2c5 ca000000 00000001 01000000 00000000 19000000 00000000 00000000 00000000 cc>;
+                CursorColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 554e5352 47425c4e 53436f6c 6f725370 61636556 24636c61 73734f10 2a302e32 32373435 3120302e 31333732 35343931 20302e31 33333333 33333420 302e3634 39393939 39380010 028002d2 10111213 5a24636c 6173736e 616d6558 24636c61 73736573 574e5343 6f6c6f72 a2121458 4e534f62 6a656374 5f100f4e 534b6579 65644172 63686976 6572d117 1854726f 6f748001 08111a23 2d32373b 41484e5b 628f9193 98a3acb4 b7c0d2d5 da000000 00000001 01000000 00000000 19000000 00000000 00000000 00000000 dc>;
+                Font = <62706c69 73743030 d4010203 04050618 19582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a4 07081112 55246e75 6c6cd409 0a0b0c0d 0e0f1056 4e535369 7a65584e 5366466c 61677356 4e534e61 6d655624 636c6173 73234028 00000000 00001010 80028003 57436f75 72696572 d2131415 165a2463 6c617373 6e616d65 5824636c 61737365 73564e53 466f6e74 a2151758 4e534f62 6a656374 5f100f4e 534b6579 65644172 63686976 6572d11a 1b54726f 6f748001 08111a23 2d32373c 424b525b 62697274 76788085 9099a0a3 acbec1c6 00000000 00000101 00000000 0000001c 00000000 00000000 00000000 000000c8>;
+                FontAntialias = 1;
+                ProfileCurrentVersion = "2.02";
+                SelectionColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 554e5352 47425c4e 53436f6c 6f725370 61636556 24636c61 73734f10 2c302e34 35343038 31363520 302e3435 31303034 38392030 2e333135 31343339 3120302e 37353939 39393939 00100180 02d21011 12135a24 636c6173 736e616d 65582463 6c617373 6573574e 53436f6c 6f72a212 14584e53 4f626a65 63745f10 0f4e534b 65796564 41726368 69766572 d1171854 726f6f74 80010811 1a232d32 373b4148 4e5b6291 93959aa5 aeb6b9c2 d4d7dc00 00000000 00010100 00000000 00001900 00000000 00000000 00000000 0000de>;
+                ShowWindowSettingsNameInTitle = 0;
+                TextBoldColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 554e5352 47425c4e 53436f6c 6f725370 61636556 24636c61 73734f10 1b302e35 20302e31 36343330 30353520 302e3039 39313435 34373200 10018002 d2101112 135a2463 6c617373 6e616d65 5824636c 61737365 73574e53 436f6c6f 72a21214 584e534f 626a6563 745f100f 4e534b65 79656441 72636869 766572d1 17185472 6f6f7480 0108111a 232d3237 3b41484e 5b628082 8489949d a5a8b1c3 c6cb0000 00000000 01010000 00000000 00190000 00000000 00000000 00000000 00cd>;
+                TextColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 554e5352 47425c4e 53436f6c 6f725370 61636556 24636c61 73734f10 21302e32 33333137 33313220 302e3133 35343038 35372030 2e313332 39303630 38001001 8002d210 1112135a 24636c61 73736e61 6d655824 636c6173 73657357 4e53436f 6c6f72a2 1214584e 534f626a 6563745f 100f4e53 4b657965 64417263 68697665 72d11718 54726f6f 74800108 111a232d 32373b41 484e5b62 86888a8f 9aa3abae b7c9ccd1 00000000 00000101 00000000 00000019 00000000 00000000 00000000 000000d3>;
+                name = Novel;
+                type = "Window Settings";
+            };
+            Ocean =             {
+                BackgroundColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 554e5352 47425c4e 53436f6c 6f725370 61636556 24636c61 73734f10 21302e31 33323035 36323420 302e3330 38343738 35362030 2e373339 31333034 34001001 8002d210 1112135a 24636c61 73736e61 6d655824 636c6173 73657357 4e53436f 6c6f72a2 1214584e 534f626a 6563745f 100f4e53 4b657965 64417263 68697665 72d11718 54726f6f 74800108 111a232d 32373b41 484e5b62 86888a8f 9aa3abae b7c9ccd1 00000000 00000101 00000000 00000019 00000000 00000000 00000000 000000d3>;
+                Font = <62706c69 73743030 d4010203 04050618 19582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a4 07081112 55246e75 6c6cd409 0a0b0c0d 0e0f1056 4e535369 7a65584e 5366466c 61677356 4e534e61 6d655624 636c6173 73234026 00000000 00001010 80028003 5d4d656e 6c6f2d52 6567756c 6172d213 1415165a 24636c61 73736e61 6d655824 636c6173 73657356 4e53466f 6e74a215 17584e53 4f626a65 63745f10 0f4e534b 65796564 41726368 69766572 d11a1b54 726f6f74 80010811 1a232d32 373c424b 525b6269 72747678 868b969f a6a9b2c4 c7cc0000 00000000 01010000 00000000 001c0000 00000000 00000000 00000000 00ce>;
+                FontAntialias = 1;
+                FontWidthSpacing = "0.9959677419354839";
+                ProfileCurrentVersion = "2.02";
+                SelectionColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 554e5352 47425c4e 53436f6c 6f725370 61636556 24636c61 73734f10 17302e31 33303733 39332030 2e343238 34353830 36203100 10018002 d2101112 135a2463 6c617373 6e616d65 5824636c 61737365 73574e53 436f6c6f 72a21214 584e534f 626a6563 745f100f 4e534b65 79656441 72636869 766572d1 17185472 6f6f7480 0108111a 232d3237 3b41484e 5b627c7e 80859099 a1a4adbf c2c70000 00000000 01010000 00000000 00190000 00000000 00000000 00000000 00c9>;
+                TextBoldColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 574e5357 68697465 5c4e5343 6f6c6f72 53706163 65562463 6c617373 42310010 038002d2 10111213 5a24636c 6173736e 616d6558 24636c61 73736573 574e5343 6f6c6f72 a2121458 4e534f62 6a656374 5f100f4e 534b6579 65644172 63686976 6572d117 1854726f 6f748001 08111a23 2d32373b 4148505d 6467696b 707b848c 8f98aaad b2000000 00000001 01000000 00000000 19000000 00000000 00000000 00000000 b4>;
+                TextColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 574e5357 68697465 5c4e5343 6f6c6f72 53706163 65562463 6c617373 42310010 038002d2 10111213 5a24636c 6173736e 616d6558 24636c61 73736573 574e5343 6f6c6f72 a2121458 4e534f62 6a656374 5f100f4e 534b6579 65644172 63686976 6572d117 1854726f 6f748001 08111a23 2d32373b 4148505d 6467696b 707b848c 8f98aaad b2000000 00000001 01000000 00000000 19000000 00000000 00000000 00000000 b4>;
+                fontAllowsDisableAntialias = 0;
+                name = Ocean;
+                type = "Window Settings";
+            };
+            Pro =             {
+                BackgroundBlur = 0;
+                BackgroundColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 574e5357 68697465 5c4e5343 6f6c6f72 53706163 65562463 6c617373 4d302030 2e383530 30303030 32001003 8002d210 1112135a 24636c61 73736e61 6d655824 636c6173 73657357 4e53436f 6c6f72a2 1214584e 534f626a 6563745f 100f4e53 4b657965 64417263 68697665 72d11718 54726f6f 74800108 111a232d 32373b41 48505d64 7274767b 868f979a a3b5b8bd 00000000 00000101 00000000 00000019 00000000 00000000 00000000 000000bf>;
+                CursorColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 574e5357 68697465 5c4e5343 6f6c6f72 53706163 65562463 6c617373 4b302e33 30323431 39333600 10038002 d2101112 135a2463 6c617373 6e616d65 5824636c 61737365 73574e53 436f6c6f 72a21214 584e534f 626a6563 745f100f 4e534b65 79656441 72636869 766572d1 17185472 6f6f7480 0108111a 232d3237 3b414850 5d647072 7479848d 9598a1b3 b6bb0000 00000000 01010000 00000000 00190000 00000000 00000000 00000000 00bd>;
+                Font = <62706c69 73743030 d4010203 04050618 19582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a4 07081112 55246e75 6c6cd409 0a0b0c0d 0e0f1056 4e535369 7a65584e 5366466c 61677356 4e534e61 6d655624 636c6173 73234024 00000000 00001010 80028003 564d6f6e 61636fd2 13141516 5a24636c 6173736e 616d6558 24636c61 73736573 564e5346 6f6e74a2 1517584e 534f626a 6563745f 100f4e53 4b657965 64417263 68697665 72d11a1b 54726f6f 74800108 111a232d 32373c42 4b525b62 69727476 787f848f 989fa2ab bdc0c500 00000000 00010100 00000000 00001c00 00000000 00000000 00000000 0000c7>;
+                FontAntialias = 0;
+                FontWidthSpacing = "0.9959677419354839";
+                ProfileCurrentVersion = "2.02";
+                SelectionColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 574e5357 68697465 5c4e5343 6f6c6f72 53706163 65562463 6c617373 4b302e32 35343033 32323500 10038002 d2101112 135a2463 6c617373 6e616d65 5824636c 61737365 73574e53 436f6c6f 72a21214 584e534f 626a6563 745f100f 4e534b65 79656441 72636869 766572d1 17185472 6f6f7480 0108111a 232d3237 3b414850 5d647072 7479848d 9598a1b3 b6bb0000 00000000 01010000 00000000 00190000 00000000 00000000 00000000 00bd>;
+                ShowWindowSettingsNameInTitle = 0;
+                TextBoldColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 574e5357 68697465 5c4e5343 6f6c6f72 53706163 65562463 6c617373 42310010 038002d2 10111213 5a24636c 6173736e 616d6558 24636c61 73736573 574e5343 6f6c6f72 a2121458 4e534f62 6a656374 5f100f4e 534b6579 65644172 63686976 6572d117 1854726f 6f748001 08111a23 2d32373b 4148505d 6467696b 707b848c 8f98aaad b2000000 00000001 01000000 00000000 19000000 00000000 00000000 00000000 b4>;
+                TextColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 574e5357 68697465 5c4e5343 6f6c6f72 53706163 65562463 6c617373 4b302e39 34373538 30363400 10038002 d2101112 135a2463 6c617373 6e616d65 5824636c 61737365 73574e53 436f6c6f 72a21214 584e534f 626a6563 745f100f 4e534b65 79656441 72636869 766572d1 17185472 6f6f7480 0108111a 232d3237 3b414850 5d647072 7479848d 9598a1b3 b6bb0000 00000000 01010000 00000000 00190000 00000000 00000000 00000000 00bd>;
+                name = Pro;
+                shellExitAction = 2;
+                type = "Window Settings";
+            };
+            "Red Sands" =             {
+                BackgroundColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 554e5352 47425c4e 53436f6c 6f725370 61636556 24636c61 73734f10 2c302e34 37383236 30383720 302e3134 35313034 33362030 2e313136 38383132 3120302e 38353030 30303032 00100180 02d21011 12135a24 636c6173 736e616d 65582463 6c617373 6573574e 53436f6c 6f72a212 14584e53 4f626a65 63745f10 0f4e534b 65796564 41726368 69766572 d1171854 726f6f74 80010811 1a232d32 373b4148 4e5b6291 93959aa5 aeb6b9c2 d4d7dc00 00000000 00010100 00000000 00001900 00000000 00000000 00000000 0000de>;
+                CursorColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 574e5357 68697465 5c4e5343 6f6c6f72 53706163 65562463 6c617373 42310010 038002d2 10111213 5a24636c 6173736e 616d6558 24636c61 73736573 574e5343 6f6c6f72 a2121458 4e534f62 6a656374 5f100f4e 534b6579 65644172 63686976 6572d117 1854726f 6f748001 08111a23 2d32373b 4148505d 6467696b 707b848c 8f98aaad b2000000 00000001 01000000 00000000 19000000 00000000 00000000 00000000 b4>;
+                CursorType = 1;
+                Font = <62706c69 73743030 d4010203 04050618 19582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a4 07081112 55246e75 6c6cd409 0a0b0c0d 0e0f1056 4e535369 7a65584e 5366466c 61677356 4e534e61 6d655624 636c6173 73234026 00000000 00001010 80028003 5d4d656e 6c6f2d52 6567756c 6172d213 1415165a 24636c61 73736e61 6d655824 636c6173 73657356 4e53466f 6e74a215 17584e53 4f626a65 63745f10 0f4e534b 65796564 41726368 69766572 d11a1b54 726f6f74 80010811 1a232d32 373c424b 525b6269 72747678 868b969f a6a9b2c4 c7cc0000 00000000 01010000 00000000 001c0000 00000000 00000000 00000000 00ce>;
+                FontAntialias = 1;
+                FontWidthSpacing = "1.004032258064516";
+                ProfileCurrentVersion = "2.02";
+                SelectionColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 554e5352 47425c4e 53436f6c 6f725370 61636556 24636c61 73734f10 23302e32 33373930 33323120 302e3039 37363031 33333920 302e3038 37343334 35323300 10028002 d2101112 135a2463 6c617373 6e616d65 5824636c 61737365 73574e53 436f6c6f 72a21214 584e534f 626a6563 745f100f 4e534b65 79656441 72636869 766572d1 17185472 6f6f7480 0108111a 232d3237 3b41484e 5b62888a 8c919ca5 adb0b9cb ced30000 00000000 01010000 00000000 00190000 00000000 00000000 00000000 00d5>;
+                TextBoldColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 554e5352 47425c4e 53436f6c 6f725370 61636556 24636c61 73734f10 1c302e38 37352030 2e373430 33383834 3520302e 31333231 33383733 00100180 02d21011 12135a24 636c6173 736e616d 65582463 6c617373 6573574e 53436f6c 6f72a212 14584e53 4f626a65 63745f10 0f4e534b 65796564 41726368 69766572 d1171854 726f6f74 80010811 1a232d32 373b4148 4e5b6281 83858a95 9ea6a9b2 c4c7cc00 00000000 00010100 00000000 00001900 00000000 00000000 00000000 0000ce>;
+                TextColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 554e5352 47425c4e 53436f6c 6f725370 61636556 24636c61 73734f10 21302e38 34333133 37333220 302e3738 38323335 33372030 2e363534 39303139 38001002 8002d210 1112135a 24636c61 73736e61 6d655824 636c6173 73657357 4e53436f 6c6f72a2 1214584e 534f626a 6563745f 100f4e53 4b657965 64417263 68697665 72d11718 54726f6f 74800108 111a232d 32373b41 484e5b62 86888a8f 9aa3abae b7c9ccd1 00000000 00000101 00000000 00000019 00000000 00000000 00000000 000000d3>;
+                fontAllowsDisableAntialias = 0;
+                name = "Red Sands";
+                type = "Window Settings";
+            };
+            "Silver Aerogel" =             {
+                BackgroundAlphaInactive = "0.5";
+                BackgroundBlur = 1;
+                BackgroundBlurInactive = 0;
+                BackgroundColor = <62706c69 73743030 d4010203 0405061f 20582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a5 07081115 1c55246e 756c6cd4 090a0b0c 0d0e0f10 574e5357 68697465 5c4e5343 6f6c6f72 53706163 655f1012 4e534375 73746f6d 436f6c6f 72537061 63655624 636c6173 7348302e 3520302e 35001003 80028004 d2120c13 14544e53 49441002 8003d216 1718195a 24636c61 73736e61 6d655824 636c6173 7365735c 4e53436f 6c6f7253 70616365 a21a1b5c 4e53436f 6c6f7253 70616365 584e534f 626a6563 74d21617 1d1e574e 53436f6c 6f72a21d 1b5f100f 4e534b65 79656441 72636869 766572d1 21225472 6f6f7480 01000800 11001a00 23002d00 32003700 3d004300 4c005400 61007600 7d008600 88008a00 8c009100 96009800 9a009f00 aa00b300 c000c300 d000d900 de00e600 e900fb00 fe010300 00000000 00020100 00000000 00002300 00000000 00000000 00000000 000105>;
+                BackgroundSettingsForInactiveWindows = 1;
+                CursorColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 574e5357 68697465 5c4e5343 6f6c6f72 53706163 65562463 6c617373 45302e38 35001003 8002d210 1112135a 24636c61 73736e61 6d655824 636c6173 73657357 4e53436f 6c6f72a2 1214584e 534f626a 6563745f 100f4e53 4b657965 64417263 68697665 72d11718 54726f6f 74800108 111a232d 32373b41 48505d64 6a6c6e73 7e878f92 9badb0b5 00000000 00000101 00000000 00000019 00000000 00000000 00000000 000000b7>;
+                Font = <62706c69 73743030 d4010203 04050618 19582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a4 07081112 55246e75 6c6cd409 0a0b0c0d 0e0f1056 4e535369 7a65584e 5366466c 61677356 4e534e61 6d655624 636c6173 73234026 00000000 00001010 80028003 5d4d656e 6c6f2d52 6567756c 6172d213 1415165a 24636c61 73736e61 6d655824 636c6173 73657356 4e53466f 6e74a215 17584e53 4f626a65 63745f10 0f4e534b 65796564 41726368 69766572 d11a1b54 726f6f74 80010811 1a232d32 373c424b 525b6269 72747678 868b969f a6a9b2c4 c7cc0000 00000000 01010000 00000000 001c0000 00000000 00000000 00000000 00ce>;
+                FontAntialias = 1;
+                FontWidthSpacing = "1.004032258064516";
+                ProfileCurrentVersion = "2.02";
+                SelectionColor = <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 554e5352 47425c4e 53436f6c 6f725370 61636556 24636c61 73734f10 24302e33 39343433 30303731 3120302e 33393936 34363639 39342030 2e353430 34323834 00100180 02d21011 12135a24 636c6173 736e616d 65582463 6c617373 6573574e 53436f6c 6f72a212 14584e53 4f626a65 63745f10 0f4e534b 65796564 41726368 69766572 d1171854 726f6f74 80010811 1a232d32 373b4148 4e5b6289 8b8d929d a6aeb1ba cccfd400 00000000 00010100 00000000 00001900 00000000 00000000 00000000 0000d6>;
+                TextBoldColor = <62706c69 73743030 d4010203 0405061f 20582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a5 07081115 1c55246e 756c6cd4 090a0b0c 0d0e0f10 574e5357 68697465 5c4e5343 6f6c6f72 53706163 655f1012 4e534375 73746f6d 436f6c6f 72537061 63655624 636c6173 73423100 10038002 8004d212 0c131454 4e534944 10028003 d2161718 195a2463 6c617373 6e616d65 5824636c 61737365 735c4e53 436f6c6f 72537061 6365a21a 1b5c4e53 436f6c6f 72537061 6365584e 534f626a 656374d2 16171d1e 574e5343 6f6c6f72 a21d1b5f 100f4e53 4b657965 64417263 68697665 72d12122 54726f6f 74800108 111a232d 32373d43 4c546176 7d808284 868b9092 9499a4ad babdcad3 d8e0e3f5 f8fd0000 00000000 01010000 00000000 00230000 00000000 00000000 00000000 00ff>;
+                name = "Silver Aerogel";
+                type = "Window Settings";
+            };
+            "Solid Colors" =             {
+                BackgroundImageBookmark = <62706c69 73743030 d4010203 04050614 15582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080d55 246e756c 6cd2090a 0b0c574e 532e6461 74615624 636c6173 734f1101 e8626f6f 6be80100 00000001 10100000 004c0100 00070000 00010100 004c6962 72617279 00100000 00010100 00446573 6b746f70 20506963 74757265 730c0000 00010100 00536f6c 69642043 6f6c6f72 730c0000 00010600 00040000 00140000 002c0000 00080000 00040300 002d8036 03000000 00080000 00040300 00dad338 03000000 00080000 00040300 0097d438 03000000 000c0000 00010600 00540000 00640000 00740000 00180000 00010200 00020000 00000000 000f0000 00000000 00000000 00000000 000c0000 00010100 004d6163 696e746f 73682048 44080000 00040300 00000000 000a0000 00080000 00000400 0041b027 45720000 00240000 00010100 00333539 30314634 442d4435 45352d33 4139382d 42383033 2d373730 43343541 39443036 43180000 00010200 00810000 00010008 00ef3f00 00010008 00000000 00000000 00010000 00010100 002f0000 00000000 00010500 00840000 00feffff ff010000 00000000 000a0000 00041000 00400000 00000000 00051000 00840000 00000000 00101000 00980000 00000000 00022000 00380100 00000000 00102000 00b80000 00000000 00112000 00ec0000 00000000 00122000 00cc0000 00000000 00132000 00dc0000 00000000 00202000 00180100 00000000 00302000 00440100 00000000 008002d2 0e0f1011 5a24636c 6173736e 616d6558 24636c61 73736573 5d4e534d 75746162 6c654461 7461a310 1213564e 53446174 61584e53 4f626a65 63745f10 0f4e534b 65796564 41726368 69766572 d1161754 726f6f74 80010008 0011001a 0023002d 00320037 003b0041 0046004e 00550241 02430248 0253025c 026a026e 0275027e 02900293 02980000 00000000 02010000 00000000 00180000 00000000 00000000 00000000 029a>;
+                CursorColor = <62706c69 73743030 d4010203 0405061f 20582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a5 07081115 1c55246e 756c6cd4 090a0b0c 0d0e0f10 574e5357 68697465 5c4e5343 6f6c6f72 53706163 655f1012 4e534375 73746f6d 436f6c6f 72537061 63655624 636c6173 7345302e 37350010 03800280 04d2120c 1314544e 53494410 028003d2 16171819 5a24636c 6173736e 616d6558 24636c61 73736573 5c4e5343 6f6c6f72 53706163 65a21a1b 5c4e5343 6f6c6f72 53706163 65584e53 4f626a65 6374d216 171d1e57 4e53436f 6c6f72a2 1d1b5f10 0f4e534b 65796564 41726368 69766572 d1212254 726f6f74 80010008 0011001a 0023002d 00320037 003d0043 004c0054 00610076 007d0083 00850087 0089008e 00930095 0097009c 00a700b0 00bd00c0 00cd00d6 00db00e3 00e600f8 00fb0100 00000000 00000201 00000000 00000023 00000000 00000000 00000000 00000102>;
+                Font = <62706c69 73743030 d4010203 04050618 19582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a4 07081112 55246e75 6c6cd409 0a0b0c0d 0e0f1056 4e535369 7a65584e 5366466c 61677356 4e534e61 6d655624 636c6173 73234026 00000000 00001010 80028003 5d4d656e 6c6f2d52 6567756c 6172d213 1415165a 24636c61 73736e61 6d655824 636c6173 73657356 4e53466f 6e74a215 17584e53 4f626a65 63745f10 0f4e534b 65796564 41726368 69766572 d11a1b54 726f6f74 80010811 1a232d32 373c424b 525b6269 72747678 868b969f a6a9b2c4 c7cc0000 00000000 01010000 00000000 001c0000 00000000 00000000 00000000 00ce>;
+                FontAntialias = 1;
+                FontWidthSpacing = "1.004032258064516";
+                ProfileCurrentVersion = "2.02";
+                name = "Solid Colors";
+                type = "Window Settings";
+            };
+        };
+    };
+    "com.apple.appstore" =     {
+        CachedStorefrontID = "143441-1,13";
+        CachedStorefrontRedirectID = "143441-1,13";
+        CachedStorefrontRedirectURL = "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?cc=us&id=29520&mt=12";
+        CachedStorefrontURL = "https://itunes.apple.com/us/store";
+        "NSWindow Frame Preferences" = "140 166 1000 602 0 0 1280 778 ";
+        appStoreBadgeCount = 0;
+        "genres.WebKit2AcceleratedDrawingEnabled" = 1;
+        "genres.WebKit2DeveloperExtrasEnabled" = 1;
+        "genres.WebKit2SuppressesIncrementalRendering" = 1;
+        "primary.WebKit2AcceleratedDrawingEnabled" = 1;
+        "primary.WebKit2DeveloperExtrasEnabled" = 1;
+        "primary.WebKit2SuppressesIncrementalRendering" = 1;
+        "purchased.WebKit2AcceleratedDrawingEnabled" = 1;
+        "purchased.WebKit2DeveloperExtrasEnabled" = 1;
+        "purchased.WebKit2SuppressesIncrementalRendering" = 1;
+        "top-charts.WebKit2AcceleratedDrawingEnabled" = 1;
+        "top-charts.WebKit2DeveloperExtrasEnabled" = 1;
+        "top-charts.WebKit2SuppressesIncrementalRendering" = 1;
+        "updates.WebKit2AcceleratedDrawingEnabled" = 1;
+        "updates.WebKit2DeveloperExtrasEnabled" = 1;
+        "updates.WebKit2SuppressesIncrementalRendering" = 1;
+    };
+    "com.apple.dock" =     {
+        "last-messagetrace-stamp" = "428175698.759207";
+        "mod-count" = 2;
+        "persistent-apps" =         (
+                        {
+                GUID = 4050634957;
+                "tile-data" =                 {
+                    "bundle-identifier" = "com.apple.launchpad.launcher";
+                    "dock-extra" = 0;
+                    "file-data" =                     {
+                        "_CFURLAliasData" = <00000000 00a00003 00010000 cffa8bc9 0000482b 00000000 0000004f 00021772 0000ce3f 105f0000 00000920 fffe0000 00000000 0000ffff ffff0001 00040000 004f000e 001c000d 004c0061 0075006e 00630068 00700061 0064002e 00610070 0070000f 00120008 00720065 00760065 006e0061 006e0074 0012001a 4170706c 69636174 696f6e73 2f4c6175 6e636870 61642e61 70700013 00012f00 ffff0000>;
+                        "_CFURLString" = "file:///Applications/Launchpad.app/";
+                        "_CFURLStringType" = 15;
+                    };
+                    "file-label" = Launchpad;
+                    "file-mod-date" = 3460239455;
+                    "file-type" = 169;
+                    "parent-mod-date" = 3489304580;
+                };
+                "tile-type" = "file-tile";
+            },
+                        {
+                GUID = 4050634958;
+                "tile-data" =                 {
+                    "bundle-identifier" = "com.apple.Safari";
+                    "dock-extra" = 0;
+                    "file-data" =                     {
+                        "_CFURLAliasData" = <00000000 00980003 00010000 cffa8bc9 0000482b 00000000 0000004f 00002145 0000cd9c 8ee20000 00000920 fffe0000 00000000 0000ffff ffff0001 00040000 004f000e 0016000a 00530061 00660061 00720069 002e0061 00700070 000f0012 00080072 00650076 0065006e 0061006e 00740012 00174170 706c6963 6174696f 6e732f53 61666172 692e6170 70000013 00012f00 ffff0000>;
+                        "_CFURLString" = "file:///Applications/Safari.app/";
+                        "_CFURLStringType" = 15;
+                    };
+                    "file-label" = Safari;
+                    "file-mod-date" = 3449589474;
+                    "file-type" = 41;
+                    "parent-mod-date" = 3489304580;
+                };
+                "tile-type" = "file-tile";
+            },
+                        {
+                GUID = 4050634959;
+                "tile-data" =                 {
+                    "bundle-identifier" = "com.apple.mail";
+                    "dock-extra" = 0;
+                    "file-data" =                     {
+                        "_CFURLAliasData" = <00000000 00920003 00010000 cffa8bc9 0000482b 00000000 0000004f 0002bd27 0000ce84 f4d30000 00000920 fffe0000 00000000 0000ffff ffff0001 00040000 004f000e 00120008 004d0061 0069006c 002e0061 00700070 000f0012 00080072 00650076 0065006e 0061006e 00740012 00154170 706c6963 6174696f 6e732f4d 61696c2e 61707000 00130001 2f00ffff 0000>;
+                        "_CFURLString" = "file:///Applications/Mail.app/";
+                        "_CFURLStringType" = 15;
+                    };
+                    "file-label" = Mail;
+                    "file-mod-date" = 3464819923;
+                    "file-type" = 41;
+                    "parent-mod-date" = 3489304580;
+                };
+                "tile-type" = "file-tile";
+            },
+                        {
+                GUID = 4050634960;
+                "tile-data" =                 {
+                    "bundle-identifier" = "com.apple.AddressBook";
+                    "dock-extra" = 0;
+                    "file-data" =                     {
+                        "_CFURLAliasData" = <00000000 009e0003 00010000 cffa8bc9 0000482b 00000000 0000004f 0000d12a 0000ce00 f1290000 00000920 fffe0000 00000000 0000ffff ffff0001 00040000 004f000e 001a000c 0043006f 006e0074 00610063 00740073 002e0061 00700070 000f0012 00080072 00650076 0065006e 0061006e 00740012 00194170 706c6963 6174696f 6e732f43 6f6e7461 6374732e 61707000 00130001 2f00ffff 0000>;
+                        "_CFURLString" = "file:///Applications/Contacts.app/";
+                        "_CFURLStringType" = 15;
+                    };
+                    "file-label" = Contacts;
+                    "file-mod-date" = 3456168233;
+                    "file-type" = 41;
+                    "parent-mod-date" = 3489304580;
+                };
+                "tile-type" = "file-tile";
+            },
+                        {
+                GUID = 4050634961;
+                "tile-data" =                 {
+                    "bundle-identifier" = "com.apple.iCal";
+                    "dock-extra" = 1;
+                    "file-data" =                     {
+                        "_CFURLAliasData" = <00000000 009e0003 00010000 cffa8bc9 0000482b 00000000 0000004f 0004136e 0000ce69 12290000 00000920 fffe0000 00000000 0000ffff ffff0001 00040000 004f000e 001a000c 00430061 006c0065 006e0064 00610072 002e0061 00700070 000f0012 00080072 00650076 0065006e 0061006e 00740012 00194170 706c6963 6174696f 6e732f43 616c656e 6461722e 61707000 00130001 2f00ffff 0000>;
+                        "_CFURLString" = "file:///Applications/Calendar.app/";
+                        "_CFURLStringType" = 15;
+                    };
+                    "file-label" = Calendar;
+                    "file-mod-date" = 3462992425;
+                    "file-type" = 41;
+                    "parent-mod-date" = 3489304580;
+                };
+                "tile-type" = "file-tile";
+            },
+                        {
+                GUID = 4050634962;
+                "tile-data" =                 {
+                    "bundle-identifier" = "com.apple.Notes";
+                    "dock-extra" = 0;
+                    "file-data" =                     {
+                        "_CFURLAliasData" = <00000000 00940003 00010000 cffa8bc9 0000482b 00000000 0000004f 000304e6 0000ce4d c9cf0000 00000920 fffe0000 00000000 0000ffff ffff0001 00040000 004f000e 00140009 004e006f 00740065 0073002e 00610070 0070000f 00120008 00720065 00760065 006e0061 006e0074 00120016 4170706c 69636174 696f6e73 2f4e6f74 65732e61 70700013 00012f00 ffff0000>;
+                        "_CFURLString" = "file:///Applications/Notes.app/";
+                        "_CFURLStringType" = 15;
+                    };
+                    "file-label" = Notes;
+                    "file-mod-date" = 3461204431;
+                    "file-type" = 41;
+                    "parent-mod-date" = 3489304580;
+                };
+                "tile-type" = "file-tile";
+            },
+                        {
+                GUID = 4050634963;
+                "tile-data" =                 {
+                    "bundle-identifier" = "com.apple.Maps";
+                    "dock-extra" = 0;
+                    "file-data" =                     {
+                        "_CFURLAliasData" = <00000000 00920003 00010000 cffa8bc9 0000482b 00000000 0000004f 0002eb6d 0000cdf3 7a610000 00000920 fffe0000 00000000 0000ffff ffff0001 00040000 004f000e 00120008 004d0061 00700073 002e0061 00700070 000f0012 00080072 00650076 0065006e 0061006e 00740012 00154170 706c6963 6174696f 6e732f4d 6170732e 61707000 00130001 2f00ffff 0000>;
+                        "_CFURLString" = "file:///Applications/Maps.app/";
+                        "_CFURLStringType" = 15;
+                    };
+                    "file-label" = Maps;
+                    "file-mod-date" = 3455285857;
+                    "file-type" = 41;
+                    "parent-mod-date" = 3489304580;
+                };
+                "tile-type" = "file-tile";
+            },
+                        {
+                GUID = 4050634964;
+                "tile-data" =                 {
+                    "bundle-identifier" = "com.apple.iChat";
+                    "dock-extra" = 1;
+                    "file-data" =                     {
+                        "_CFURLAliasData" = <00000000 009e0003 00010000 cffa8bc9 0000482b 00000000 0000004f 0002eeb0 0000cbcd ed3f0000 00000920 fffe0000 00000000 0000ffff ffff0001 00040000 004f000e 001a000c 004d0065 00730073 00610067 00650073 002e0061 00700070 000f0012 00080072 00650076 0065006e 0061006e 00740012 00194170 706c6963 6174696f 6e732f4d 65737361 6765732e 61707000 00130001 2f00ffff 0000>;
+                        "_CFURLString" = "file:///Applications/Messages.app/";
+                        "_CFURLStringType" = 15;
+                    };
+                    "file-label" = Messages;
+                    "file-mod-date" = 3419270463;
+                    "file-type" = 41;
+                    "parent-mod-date" = 3489304580;
+                };
+                "tile-type" = "file-tile";
+            },
+                        {
+                GUID = 4050634965;
+                "tile-data" =                 {
+                    "bundle-identifier" = "com.apple.FaceTime";
+                    "dock-extra" = 1;
+                    "file-data" =                     {
+                        "_CFURLAliasData" = <00000000 009e0003 00010000 cffa8bc9 0000482b 00000000 0000004f 00021e5f 0000ce62 c1f60000 00000920 fffe0000 00000000 0000ffff ffff0001 00040000 004f000e 001a000c 00460061 00630065 00540069 006d0065 002e0061 00700070 000f0012 00080072 00650076 0065006e 0061006e 00740012 00194170 706c6963 6174696f 6e732f46 61636554 696d652e 61707000 00130001 2f00ffff 0000>;
+                        "_CFURLString" = "file:///Applications/FaceTime.app/";
+                        "_CFURLStringType" = 15;
+                    };
+                    "file-label" = FaceTime;
+                    "file-mod-date" = 3462578678;
+                    "file-type" = 41;
+                    "parent-mod-date" = 3489304580;
+                };
+                "tile-type" = "file-tile";
+            },
+                        {
+                GUID = 4050634966;
+                "tile-data" =                 {
+                    "bundle-identifier" = "com.apple.PhotoBooth";
+                    "dock-extra" = 0;
+                    "file-data" =                     {
+                        "_CFURLAliasData" = <00000000 00a60003 00010000 cffa8bc9 0000482b 00000000 0000004f 00031941 0000ce47 4bb80000 00000920 fffe0000 00000000 0000ffff ffff0001 00040000 004f000e 0020000f 00500068 006f0074 006f0020 0042006f 006f0074 0068002e 00610070 0070000f 00120008 00720065 00760065 006e0061 006e0074 0012001c 4170706c 69636174 696f6e73 2f50686f 746f2042 6f6f7468 2e617070 00130001 2f00ffff 0000>;
+                        "_CFURLString" = "file:///Applications/Photo%20Booth.app/";
+                        "_CFURLStringType" = 15;
+                    };
+                    "file-label" = "Photo Booth";
+                    "file-mod-date" = 3460778936;
+                    "file-type" = 41;
+                    "parent-mod-date" = 3489304580;
+                };
+                "tile-type" = "file-tile";
+            },
+                        {
+                GUID = 4050634967;
+                "tile-data" =                 {
+                    "bundle-identifier" = "com.apple.iTunes";
+                    "dock-extra" = 0;
+                    "file-data" =                     {
+                        "_CFURLAliasData" = <00000000 00980003 00010000 cffa8bc9 0000482b 00000000 0000004f 000441d8 0000ce5e f97e0000 00000920 fffe0000 00000000 0000ffff ffff0001 00040000 004f000e 0016000a 00690054 0075006e 00650073 002e0061 00700070 000f0012 00080072 00650076 0065006e 0061006e 00740012 00174170 706c6963 6174696f 6e732f69 54756e65 732e6170 70000013 00012f00 ffff0000>;
+                        "_CFURLString" = "file:///Applications/iTunes.app/";
+                        "_CFURLStringType" = 15;
+                    };
+                    "file-label" = iTunes;
+                    "file-mod-date" = 3462330750;
+                    "file-type" = 41;
+                    "parent-mod-date" = 3489304580;
+                };
+                "tile-type" = "file-tile";
+            },
+                        {
+                GUID = 4050634968;
+                "tile-data" =                 {
+                    "bundle-identifier" = "com.apple.iBooksX";
+                    "dock-extra" = 0;
+                    "file-data" =                     {
+                        "_CFURLAliasData" = <00000000 00980003 00010000 cffa8bc9 0000482b 00000000 0000004f 00022245 0000ce50 7e640000 00000920 fffe0000 00000000 0000ffff ffff0001 00040000 004f000e 0016000a 00690042 006f006f 006b0073 002e0061 00700070 000f0012 00080072 00650076 0065006e 0061006e 00740012 00174170 706c6963 6174696f 6e732f69 426f6f6b 732e6170 70000013 00012f00 ffff0000>;
+                        "_CFURLString" = "file:///Applications/iBooks.app/";
+                        "_CFURLStringType" = 15;
+                    };
+                    "file-label" = iBooks;
+                    "file-mod-date" = 3461381732;
+                    "file-type" = 41;
+                    "parent-mod-date" = 3489304580;
+                };
+                "tile-type" = "file-tile";
+            },
+                        {
+                GUID = 4050634969;
+                "tile-data" =                 {
+                    "bundle-identifier" = "com.apple.appstore";
+                    "dock-extra" = 1;
+                    "file-data" =                     {
+                        "_CFURLAliasData" = <00000000 00a00003 00010000 cffa8bc9 0000482b 00000000 0000004f 0000f4b7 0000cdb6 ccfb0000 00000920 fffe0000 00000000 0000ffff ffff0001 00040000 004f000e 001c000d 00410070 00700020 00530074 006f0072 0065002e 00610070 0070000f 00120008 00720065 00760065 006e0061 006e0074 0012001a 4170706c 69636174 696f6e73 2f417070 2053746f 72652e61 70700013 00012f00 ffff0000>;
+                        "_CFURLString" = "file:///Applications/App%20Store.app/";
+                        "_CFURLStringType" = 15;
+                    };
+                    "file-label" = "App Store";
+                    "file-mod-date" = 3451309307;
+                    "file-type" = 41;
+                    "parent-mod-date" = 3489304580;
+                };
+                "tile-type" = "file-tile";
+            },
+                        {
+                GUID = 4050634970;
+                "tile-data" =                 {
+                    "bundle-identifier" = "com.apple.systempreferences";
+                    "dock-extra" = 1;
+                    "file-data" =                     {
+                        "_CFURLAliasData" = <00000000 00bc0003 00010000 cffa8bc9 0000482b 00000000 0000004f 0003cf02 0000ce3f 45860000 00000920 fffe0000 00000000 0000ffff ffff0001 00040000 004f000e 002e0016 00530079 00730074 0065006d 00200050 00720065 00660065 00720065 006e0063 00650073 002e0061 00700070 000f0012 00080072 00650076 0065006e 0061006e 00740012 00234170 706c6963 6174696f 6e732f53 79737465 6d205072 65666572 656e6365 732e6170 70000013 00012f00 ffff0000>;
+                        "_CFURLString" = "file:///Applications/System%20Preferences.app/";
+                        "_CFURLStringType" = 15;
+                    };
+                    "file-label" = "System Preferences";
+                    "file-mod-date" = 3460253062;
+                    "file-type" = 41;
+                    "parent-mod-date" = 3489304580;
+                };
+                "tile-type" = "file-tile";
+            }
+        );
+        "persistent-others" =         (
+                        {
+                GUID = 4050634971;
+                "tile-data" =                 {
+                    arrangement = 2;
+                    displayas = 0;
+                    "file-data" =                     {
+                        "_CFURLAliasData" = <00000000 009c0003 00010000 cffa8bc9 0000482b 00000000 00062043 00062046 0000cffa 8cbf0000 00000920 fffe0000 00000000 0000ffff ffff0001 00080006 20430002 6444000e 00140009 0044006f 0077006e 006c006f 00610064 0073000f 00120008 00720065 00760065 006e0061 006e0074 00120013 55736572 732f7469 6d2f446f 776e6c6f 61647300 00130001 2f000015 0002000a ffff0000>;
+                        "_CFURLString" = "file:///Users/tim/Downloads/";
+                        "_CFURLStringType" = 15;
+                    };
+                    "file-label" = Downloads;
+                    "file-mod-date" = 3489327672;
+                    "file-type" = 2;
+                    "parent-mod-date" = 3489327693;
+                    preferreditemsize = "-1";
+                    showas = 1;
+                };
+                "tile-type" = "directory-tile";
+            }
+        );
+        version = 1;
+    };
+    "com.apple.driver.AppleBluetoothMultitouch.mouse" =     {
+        MouseButtonDivision = 55;
+        MouseButtonMode = OneButton;
+        MouseHorizontalScroll = 1;
+        MouseMomentumScroll = 1;
+        MouseOneFingerDoubleTapGesture = 0;
+        MouseTwoFingerDoubleTapGesture = 3;
+        MouseTwoFingerHorizSwipeGesture = 2;
+        MouseVerticalScroll = 1;
+        UserPreferences = 1;
+    };
+    "com.apple.driver.AppleBluetoothMultitouch.trackpad" =     {
+        Clicking = 0;
+        DragLock = 0;
+        Dragging = 0;
+        TrackpadCornerSecondaryClick = 0;
+        TrackpadFiveFingerPinchGesture = 2;
+        TrackpadFourFingerHorizSwipeGesture = 2;
+        TrackpadFourFingerPinchGesture = 2;
+        TrackpadFourFingerVertSwipeGesture = 2;
+        TrackpadHandResting = 1;
+        TrackpadHorizScroll = 1;
+        TrackpadMomentumScroll = 1;
+        TrackpadPinch = 1;
+        TrackpadRightClick = 1;
+        TrackpadRotate = 1;
+        TrackpadScroll = 1;
+        TrackpadThreeFingerDrag = 0;
+        TrackpadThreeFingerHorizSwipeGesture = 2;
+        TrackpadThreeFingerTapGesture = 2;
+        TrackpadThreeFingerVertSwipeGesture = 2;
+        TrackpadTwoFingerDoubleTapGesture = 1;
+        TrackpadTwoFingerFromRightEdgeSwipeGesture = 3;
+        USBMouseStopsTrackpad = 0;
+        UserPreferences = 1;
+        version = 5;
+    };
+    "com.apple.driver.AppleHIDMouse" =     {
+        Button1 = 1;
+        Button2 = 1;
+        Button3 = 0;
+        Button4 = 0;
+        Button4Click = 0;
+        Button4Force = 0;
+        ButtonDominance = 1;
+        ScrollH = 1;
+        ScrollS = 4;
+        ScrollSSize = 30;
+        ScrollV = 1;
+    };
+    "com.apple.facetime.bag" =     {
+        CacheTime = 3600;
+        CachedBag =         {
+            "ds-iforgot-url" = "https://iforgot.apple.com/";
+            "ds-vetting-email-from" =             (
+                "appleid@id.apple.com",
+                "appleid@apple.com"
+            );
+            "gk-cdx" = "17.155.5.232:4398";
+            "gk-cdx-name" = "cdx.ess.apple.com:4398";
+            "gk-commnat-cohort" = "17.154.239.223:16386";
+            "gk-commnat-cohort-name" = "commnat-cohort.ess.apple.com:16386";
+            "gk-commnat-main0" = "17.154.239.222:16384";
+            "gk-commnat-main0-name" = "commnat-main.ess.apple.com:16384";
+            "gk-commnat-main1" = "17.154.239.222:16385";
+            "gk-commnat-main1-name" = "commnat-main.ess.apple.com:16385";
+            "gk-invitation-accept" = "https://service.ess.apple.com/WebObjects/VCInvitationService.woa/wa/accept";
+            "gk-invitation-break-before-make-timeout" = 5;
+            "gk-invitation-cancel" = "https://service.ess.apple.com/WebObjects/VCInvitationService.woa/wa/cancel";
+            "gk-invitation-initiate" = "https://service.ess.apple.com/WebObjects/VCInvitationService.woa/wa/initiate";
+            "gk-invitation-reinitiate" = "https://service.ess.apple.com/WebObjects/VCInvitationService.woa/wa/reinitiate";
+            "gk-invitation-reject" = "https://service.ess.apple.com/WebObjects/VCInvitationService.woa/wa/reject";
+            "gk-invitation-relay-cancel" = "https://service.ess.apple.com/WebObjects/VCInvitationService.woa/wa/relayCancel";
+            "gk-invitation-relay-initiate" = "https://service.ess.apple.com/WebObjects/VCInvitationService.woa/wa/relayInitiate";
+            "gk-invitation-relay-setup" = "https://service.ess.apple.com/WebObjects/VCInvitationService.woa/wa/relaySetup";
+            "gk-invitation-relay-update" = "https://service.ess.apple.com/WebObjects/VCInvitationService.woa/wa/relayUpdate";
+            "gk-invitation-send" = "https://service.ess.apple.com/WebObjects/VCInvitationService.woa/wa/send";
+            "gk-p2p-bitrate-max-2g" = 100;
+            "gk-p2p-bitrate-max-3g" = 228;
+            "gk-p2p-bitrate-max-lte" = 228;
+            "gk-p2p-blob-size-max" = 130;
+            "gk-p2p-enabled-3g" = 1;
+            "gk-p2p-ice-timeout" = 35;
+            "gk-p2p-nat-type-timeout" = 5;
+            "gk-p2p-network-conditions-timeout" = 60;
+            "gk-p2p-post-connectivity-check" = 1;
+            "gk-p2p-pre-relay-timeout" = 6;
+            "gk-p2p-relay-bitrate-max" = 2000;
+            "gk-p2p-remote-packets-timeout" = 30;
+            "gk-p2p-ssl-check-url" = "https://service.ess.apple.com:443/WebObjects/VCInvitationService.woa/wa/healthCheck";
+            "gk-p2p-startup-timeout" = 30;
+            "gk-p2p-tcp-check-url" = "http://static.ess.apple.com:80/connectivity.txt";
+            "gk-p2p-tcp-relay-bitrate-max" = 2000;
+            "gk-p2p-video-throttling-timeout" = 30;
+            "id-authenticate-ds-id" = "https://service.ess.apple.com/WebObjects/VCProfileService.woa/wa/authenticateDS";
+            "id-authenticate-icloud" = "https://service.ess.apple.com/WebObjects/VCProfileService.woa/wa/authenticateICloud";
+            "id-authenticate-phone-number" = "https://service2.ess.apple.com/WebObjects/TDIdentityService.woa/wa/authenticatePhoneNumber";
+            "id-authenticate-safeview" = "https://service.ess.apple.com/WebObjects/VCProfileService.woa/wa/authenticateSafeview";
+            "id-canonicalize" = "https://service1.ess.apple.com/WebObjects/TDIdentityService.woa/wa/canonicalize";
+            "id-deregister" = "https://service2.ess.apple.com/WebObjects/TDIdentityService.woa/wa/deregister";
+            "id-get-dependent-registrations" = "https://service2.ess.apple.com/WebObjects/TDIdentityService.woa/wa/getDependentRegistrations";
+            "id-get-handles" = "https://service.ess.apple.com/WebObjects/VCProfileService.woa/wa/idsGetHandles";
+            "id-initialize-validation" = "https://service2.ess.apple.com/WebObjects/TDIdentityService.woa/wa/initializeValidation";
+            "id-provision-ds-id" = "https://service.ess.apple.com/WebObjects/VCProfileService.woa/wa/idsProvisionEmails";
+            "id-provision-phone-number" = "https://service2.ess.apple.com/WebObjects/TDIdentityService.woa/wa/provisionPhoneNumber";
+            "id-query" = "https://service1.ess.apple.com/WebObjects/QueryService.woa/wa/query";
+            "id-recover-signature" = "https://service2.ess.apple.com/WebObjects/TDIdentityService.woa/wa/recoverSignature";
+            "id-register" = "https://service2.ess.apple.com/WebObjects/TDIdentityService.woa/wa/register";
+            "id-report-spam" = "https://service1.ess.apple.com/WebObjects/TDIdentityService.woa/wa/reportSpam";
+            "id-validate-safeview" = "https://service2.ess.apple.com/WebObjects/TDIdentityService.woa/wa/validateSafeviewId";
+            "id-validation-cert" = "https://static.ess.apple.com/identity/validation/cert-1.0.plist";
+            "md-profile-authorize" = "https://service.ess.apple.com/WebObjects/VCProfileService.woa/wp/accountEdit";
+            "md-profile-edit-page" = "https://service.ess.apple.com/WebObjects/VCProfileService.woa/wp/accountEdit";
+            "md-profile-password-change" = "https://service.ess.apple.com/WebObjects/VCProfileService.woa/wp/passwordChange";
+            "md-profile-setup-page" = "https://service.ess.apple.com/WebObjects/VCProfileService.woa/wp/accountSetup";
+            "rtc-ac-bitrate-max-2g" = 40;
+            "rtc-ac-bitrate-max-3g" = 40;
+            "rtc-ac-bitrate-max-lte" = 40;
+            "rtc-ac-relay-bitrate-max" = 40;
+            "rtc-ac-tcp-relay-bitrate-max" = 40;
+            "vc-build-revision" = undefined;
+            "vc-build-version" = 14C49;
+            "vc-deregister" = "https://registration.ess.apple.com/WebObjects/VCRegistrationService.woa/wa/deregister";
+            "vc-disaster-mode" = 0;
+            "vc-disaster-receiver-retry-interval" = 600;
+            "vc-disaster-sender-max-retries" = 1;
+            "vc-disaster-sender-self-tokens" = 0;
+            "vc-profile-authenticate" = "https://service.ess.apple.com/WebObjects/VCProfileService.woa/wa/authenticateUser";
+            "vc-profile-authorize" = "https://service.ess.apple.com/WebObjects/VCProfileService.woa/wp/accountEdit";
+            "vc-profile-confirm-email" = "https://service.ess.apple.com/WebObjects/VCProfileService.woa/wa/confirmEmail";
+            "vc-profile-edit-page" = "https://service.ess.apple.com/WebObjects/VCProfileService.woa/wp/accountEdit";
+            "vc-profile-get-default-invitation-context" = "https://service.ess.apple.com/WebObjects/VCProfileService.woa/wa/getDefaultInvitationContext";
+            "vc-profile-get-emails" = "https://service.ess.apple.com/WebObjects/VCProfileService.woa/wa/getEmails";
+            "vc-profile-get-handles" = "https://service.ess.apple.com/WebObjects/VCProfileService.woa/wa/getHandles";
+            "vc-profile-get-region-metadata" = "https://static.ess.apple.com/client-ui/region-metadata.xml";
+            "vc-profile-link-handle" = "https://service.ess.apple.com/WebObjects/VCProfileService.woa/wa/linkHandle";
+            "vc-profile-password-change" = "https://service.ess.apple.com/WebObjects/VCProfileService.woa/wp/passwordChange";
+            "vc-profile-provision" = "https://service.ess.apple.com/WebObjects/VCProfileService.woa/wa/provisionEmails";
+            "vc-profile-setup-page" = "https://service.ess.apple.com/WebObjects/VCProfileService.woa/wp/accountSetup";
+            "vc-profile-unlink-handle" = "https://service.ess.apple.com/WebObjects/VCProfileService.woa/wa/unlinkHandle";
+            "vc-profile-validate-email" = "https://service.ess.apple.com/WebObjects/VCProfileService.woa/wa/validateEmail";
+            "vc-profile-validate-handle" = "https://service.ess.apple.com/WebObjects/VCProfileService.woa/wa/validateHandle";
+            "vc-profile-validate-invitation-context" = "https://service.ess.apple.com/WebObjects/VCProfileService.woa/wa/validateInvitationContext";
+            "vc-register" = "https://registration.ess.apple.com/WebObjects/VCRegistrationService.woa/wa/register";
+            "vc-registration-hbi" = 2315551;
+        };
+        Date = "428176013.211694";
+        URL = "http://init.ess.apple.com/WebObjects/VCInit.woa/wa/getBag?ix=1";
+    };
+    "com.apple.finder" =     {
+        DesktopViewSettings =         {
+            IconViewSettings =             {
+                arrangeBy = none;
+                backgroundColorBlue = 1;
+                backgroundColorGreen = 1;
+                backgroundColorRed = 1;
+                backgroundType = 0;
+                gridOffsetX = 0;
+                gridOffsetY = 0;
+                gridSpacing = 54;
+                iconSize = 64;
+                labelOnBottom = 1;
+                showIconPreview = 1;
+                showItemInfo = 0;
+                textSize = 12;
+                viewOptionsVersion = 1;
+            };
+        };
+        FXArrangeGroupViewBy = Name;
+        FXDesktopVolumePositions =         {
+            "OS X Base System_0x1.80f9a28p+28" =             {
+                AnchorRelativeTo = 1;
+                ScreenID = 0;
+                xRelative = "-61";
+                yRelative = 62;
+            };
+        };
+        LastTrashState = 1;
+        ShowExternalHardDrivesOnDesktop = 1;
+        ShowHardDrivesOnDesktop = 0;
+        ShowRemovableMediaOnDesktop = 1;
+        StandardViewSettings =         {
+            ExtendedListViewSettings =             {
+                calculateAllSizes = 0;
+                columns =                 (
+                                        {
+                        ascending = 1;
+                        identifier = name;
+                        visible = 1;
+                        width = 300;
+                    },
+                                        {
+                        ascending = 0;
+                        identifier = dateModified;
+                        visible = 1;
+                        width = 181;
+                    },
+                                        {
+                        ascending = 0;
+                        identifier = dateCreated;
+                        visible = 0;
+                        width = 181;
+                    },
+                                        {
+                        ascending = 0;
+                        identifier = size;
+                        visible = 1;
+                        width = 97;
+                    },
+                                        {
+                        ascending = 1;
+                        identifier = kind;
+                        visible = 1;
+                        width = 115;
+                    },
+                                        {
+                        ascending = 1;
+                        identifier = label;
+                        visible = 0;
+                        width = 100;
+                    },
+                                        {
+                        ascending = 1;
+                        identifier = version;
+                        visible = 0;
+                        width = 75;
+                    },
+                                        {
+                        ascending = 1;
+                        identifier = comments;
+                        visible = 0;
+                        width = 300;
+                    },
+                                        {
+                        ascending = 0;
+                        identifier = dateLastOpened;
+                        visible = 0;
+                        width = 200;
+                    }
+                );
+                iconSize = 16;
+                showIconPreview = 1;
+                sortColumn = name;
+                textSize = 12;
+                useRelativeDates = 1;
+                viewOptionsVersion = 1;
+            };
+            IconViewSettings =             {
+                arrangeBy = none;
+                backgroundColorBlue = 1;
+                backgroundColorGreen = 1;
+                backgroundColorRed = 1;
+                backgroundType = 0;
+                gridOffsetX = 0;
+                gridOffsetY = 0;
+                gridSpacing = 54;
+                iconSize = 64;
+                labelOnBottom = 1;
+                showIconPreview = 1;
+                showItemInfo = 0;
+                textSize = 12;
+                viewOptionsVersion = 1;
+            };
+            ListViewSettings =             {
+                calculateAllSizes = 0;
+                columns =                 {
+                    comments =                     {
+                        ascending = 1;
+                        index = 7;
+                        visible = 0;
+                        width = 300;
+                    };
+                    dateCreated =                     {
+                        ascending = 0;
+                        index = 2;
+                        visible = 0;
+                        width = 181;
+                    };
+                    dateLastOpened =                     {
+                        ascending = 0;
+                        index = 8;
+                        visible = 0;
+                        width = 200;
+                    };
+                    dateModified =                     {
+                        ascending = 0;
+                        index = 1;
+                        visible = 1;
+                        width = 181;
+                    };
+                    kind =                     {
+                        ascending = 1;
+                        index = 4;
+                        visible = 1;
+                        width = 115;
+                    };
+                    label =                     {
+                        ascending = 1;
+                        index = 5;
+                        visible = 0;
+                        width = 100;
+                    };
+                    name =                     {
+                        ascending = 1;
+                        index = 0;
+                        visible = 1;
+                        width = 300;
+                    };
+                    size =                     {
+                        ascending = 0;
+                        index = 3;
+                        visible = 1;
+                        width = 97;
+                    };
+                    version =                     {
+                        ascending = 1;
+                        index = 6;
+                        visible = 0;
+                        width = 75;
+                    };
+                };
+                iconSize = 16;
+                showIconPreview = 1;
+                sortColumn = name;
+                textSize = 12;
+                useRelativeDates = 1;
+                viewOptionsVersion = 1;
+            };
+            SettingsType = StandardViewSettings;
+        };
+    };
+    "com.apple.iCal" =     {
+        CalSuccessfulLaunchTimestampPreferenceKey = "4.281757e+08";
+    };
+    "com.apple.identityservicesd" =     {
+        ImportedLegacyIMAccounts = 1;
+    };
+    "com.apple.imservice.ids.iMessage" =     {
+        ActiveAccounts =         (
+        );
+        OnlineAccounts =         (
+        );
+    };
+    "com.apple.messageshelper.AccountInfoController" =     {
+        InvalidFTHandles =         (
+        );
+        InvalidMessagesHandles =         (
+        );
+        ValidFTHandles =         (
+        );
+        ValidMessagesHandles =         (
+        );
+    };
+    "com.apple.messageshelper.AlertsController" =     {
+        AppleScriptNameKey = "";
+        LastPathForAppleScriptKey = "";
+        MessageReceivedSound = "Received Message.aiff";
+        PlaySoundsKey = 1;
+        RunAppleScriptsKey = 0;
+    };
+    "com.apple.notificationcenterui" =     {
+        "last-messagetrace-stamp" = "428175698.961958";
+    };
+    "com.apple.quicktime.plugin.preferences" =     {
+        WebPluginLocalizationName = "en_US";
+        WebPluginMIMETypeFilteringVersion = 1;
+        WebPluginMIMETypes =         {
+            "application/sdp" =             {
+                WebPluginExtensions =                 (
+                    sdp
+                );
+                WebPluginTypeDescription = "SDP stream descriptor";
+                WebPluginTypeEnabled = 1;
+            };
+            "application/x-mpeg" =             {
+                WebPluginExtensions =                 (
+                    amc
+                );
+                WebPluginTypeDescription = "AMC media";
+                WebPluginTypeEnabled = 1;
+            };
+            "application/x-quicktimeplayer" =             {
+                WebPluginExtensions =                 (
+                    qtl
+                );
+                WebPluginTypeDescription = "QuickTime Player Movie";
+                WebPluginTypeEnabled = 0;
+            };
+            "application/x-rtsp" =             {
+                WebPluginExtensions =                 (
+                    rtsp,
+                    rts
+                );
+                WebPluginTypeDescription = "RTSP stream descriptor";
+                WebPluginTypeEnabled = 1;
+            };
+            "application/x-sdp" =             {
+                WebPluginExtensions =                 (
+                    sdp
+                );
+                WebPluginTypeDescription = "SDP stream descriptor";
+                WebPluginTypeEnabled = 1;
+            };
+            "audio/3gpp" =             {
+                WebPluginExtensions =                 (
+                    3gp,
+                    3gpp
+                );
+                WebPluginTypeDescription = "3GPP media";
+                WebPluginTypeEnabled = 1;
+            };
+            "audio/3gpp2" =             {
+                WebPluginExtensions =                 (
+                    3g2,
+                    3gp2
+                );
+                WebPluginTypeDescription = "3GPP2 media";
+                WebPluginTypeEnabled = 1;
+            };
+            "audio/AMR" =             {
+                WebPluginExtensions =                 (
+                    AMR
+                );
+                WebPluginTypeDescription = "AMR audio";
+                WebPluginTypeEnabled = 1;
+            };
+            "audio/aac" =             {
+                WebPluginExtensions =                 (
+                    aac,
+                    adts
+                );
+                WebPluginTypeDescription = "AAC audio";
+                WebPluginTypeEnabled = 1;
+            };
+            "audio/aiff" =             {
+                WebPluginExtensions =                 (
+                    aiff,
+                    aif,
+                    aifc,
+                    cdda
+                );
+                WebPluginTypeDescription = "AIFF audio";
+                WebPluginTypeEnabled = 1;
+            };
+            "audio/basic" =             {
+                WebPluginExtensions =                 (
+                    au,
+                    snd,
+                    ulw
+                );
+                WebPluginTypeDescription = "uLaw/AU audio";
+                WebPluginTypeEnabled = 1;
+            };
+            "audio/mp3" =             {
+                WebPluginExtensions =                 (
+                    mp3,
+                    swa
+                );
+                WebPluginTypeDescription = "MP3 audio";
+                WebPluginTypeEnabled = 1;
+            };
+            "audio/mp4" =             {
+                WebPluginExtensions =                 (
+                    mp4
+                );
+                WebPluginTypeDescription = "MPEG-4 media";
+                WebPluginTypeEnabled = 1;
+            };
+            "audio/mpeg" =             {
+                WebPluginExtensions =                 (
+                    mpeg,
+                    mpg,
+                    m1s,
+                    m1a,
+                    mp2,
+                    mpm,
+                    mpa,
+                    m2a,
+                    mp3,
+                    swa
+                );
+                WebPluginTypeDescription = "MPEG audio";
+                WebPluginTypeEnabled = 1;
+            };
+            "audio/mpeg3" =             {
+                WebPluginExtensions =                 (
+                    mp3,
+                    swa
+                );
+                WebPluginTypeDescription = "MP3 audio";
+                WebPluginTypeEnabled = 1;
+            };
+            "audio/vnd.qcelp" =             {
+                WebPluginExtensions =                 (
+                    qcp
+                );
+                WebPluginTypeDescription = "QUALCOMM PureVoice audio";
+                WebPluginTypeEnabled = 1;
+            };
+            "audio/wav" =             {
+                WebPluginExtensions =                 (
+                    wav,
+                    bwf
+                );
+                WebPluginTypeDescription = "WAVE audio";
+                WebPluginTypeEnabled = 1;
+            };
+            "audio/x-aac" =             {
+                WebPluginExtensions =                 (
+                    aac,
+                    adts
+                );
+                WebPluginTypeDescription = "AAC audio";
+                WebPluginTypeEnabled = 1;
+            };
+            "audio/x-aiff" =             {
+                WebPluginExtensions =                 (
+                    aiff,
+                    aif,
+                    aifc,
+                    cdda
+                );
+                WebPluginTypeDescription = "AIFF audio";
+                WebPluginTypeEnabled = 1;
+            };
+            "audio/x-caf" =             {
+                WebPluginExtensions =                 (
+                    caf
+                );
+                WebPluginTypeDescription = "CAF audio";
+                WebPluginTypeEnabled = 1;
+            };
+            "audio/x-gsm" =             {
+                WebPluginExtensions =                 (
+                    gsm
+                );
+                WebPluginTypeDescription = "GSM audio";
+                WebPluginTypeEnabled = 1;
+            };
+            "audio/x-m4a" =             {
+                WebPluginExtensions =                 (
+                    m4a
+                );
+                WebPluginTypeDescription = "AAC audio";
+                WebPluginTypeEnabled = 1;
+            };
+            "audio/x-m4b" =             {
+                WebPluginExtensions =                 (
+                    m4b
+                );
+                WebPluginTypeDescription = "AAC audio book";
+                WebPluginTypeEnabled = 1;
+            };
+            "audio/x-m4p" =             {
+                WebPluginExtensions =                 (
+                    m4p
+                );
+                WebPluginTypeDescription = "AAC audio (protected)";
+                WebPluginTypeEnabled = 1;
+            };
+            "audio/x-mp3" =             {
+                WebPluginExtensions =                 (
+                    mp3,
+                    swa
+                );
+                WebPluginTypeDescription = "MP3 audio";
+                WebPluginTypeEnabled = 1;
+            };
+            "audio/x-mpeg" =             {
+                WebPluginExtensions =                 (
+                    mpeg,
+                    mpg,
+                    m1s,
+                    m1a,
+                    mp2,
+                    mpm,
+                    mpa,
+                    m2a,
+                    mp3,
+                    swa
+                );
+                WebPluginTypeDescription = "MPEG audio";
+                WebPluginTypeEnabled = 1;
+            };
+            "audio/x-mpeg3" =             {
+                WebPluginExtensions =                 (
+                    mp3,
+                    swa
+                );
+                WebPluginTypeDescription = "MP3 audio";
+                WebPluginTypeEnabled = 1;
+            };
+            "audio/x-sd2" =             {
+                WebPluginExtensions =                 (
+                    sd2
+                );
+                WebPluginTypeDescription = "Sound Designer II";
+                WebPluginTypeEnabled = 0;
+            };
+            "audio/x-wav" =             {
+                WebPluginExtensions =                 (
+                    wav,
+                    bwf
+                );
+                WebPluginTypeDescription = "WAVE audio";
+                WebPluginTypeEnabled = 1;
+            };
+            "text/x-html-insertion" =             {
+                WebPluginExtensions =                 (
+                    qht,
+                    qhtm
+                );
+                WebPluginTypeDescription = "QuickTime HTML (QHTM)";
+                WebPluginTypeEnabled = 0;
+            };
+            "video/3gpp" =             {
+                WebPluginExtensions =                 (
+                    3gp,
+                    3gpp
+                );
+                WebPluginTypeDescription = "3GPP media";
+                WebPluginTypeEnabled = 1;
+            };
+            "video/3gpp2" =             {
+                WebPluginExtensions =                 (
+                    3g2,
+                    3gp2
+                );
+                WebPluginTypeDescription = "3GPP2 media";
+                WebPluginTypeEnabled = 1;
+            };
+            "video/avi" =             {
+                WebPluginExtensions =                 (
+                    avi,
+                    vfw
+                );
+                WebPluginTypeDescription = "Video For Windows (AVI)";
+                WebPluginTypeEnabled = 1;
+            };
+            "video/mp4" =             {
+                WebPluginExtensions =                 (
+                    mp4
+                );
+                WebPluginTypeDescription = "MPEG-4 media";
+                WebPluginTypeEnabled = 1;
+            };
+            "video/mpeg" =             {
+                WebPluginExtensions =                 (
+                    mpeg,
+                    mpg,
+                    m1s,
+                    m1v,
+                    m1a,
+                    m75,
+                    m15,
+                    mp2,
+                    mpm,
+                    mpv,
+                    mpa
+                );
+                WebPluginTypeDescription = "MPEG media";
+                WebPluginTypeEnabled = 1;
+            };
+            "video/msvideo" =             {
+                WebPluginExtensions =                 (
+                    avi,
+                    vfw
+                );
+                WebPluginTypeDescription = "Video For Windows (AVI)";
+                WebPluginTypeEnabled = 1;
+            };
+            "video/quicktime" =             {
+                WebPluginExtensions =                 (
+                    mov,
+                    qt,
+                    mqv
+                );
+                WebPluginTypeDescription = "QuickTime Movie";
+                WebPluginTypeEnabled = 1;
+            };
+            "video/sd-video" =             {
+                WebPluginExtensions =                 (
+                    sdv
+                );
+                WebPluginTypeDescription = "SD video";
+                WebPluginTypeEnabled = 1;
+            };
+            "video/x-dv" =             {
+                WebPluginExtensions =                 (
+                    dv,
+                    dif
+                );
+                WebPluginTypeDescription = "Digital video (DV)";
+                WebPluginTypeEnabled = 0;
+            };
+            "video/x-m4v" =             {
+                WebPluginExtensions =                 (
+                    m4v
+                );
+                WebPluginTypeDescription = "Video (protected)";
+                WebPluginTypeEnabled = 1;
+            };
+            "video/x-mpeg" =             {
+                WebPluginExtensions =                 (
+                    mpeg,
+                    mpg,
+                    m1s,
+                    m1v,
+                    m1a,
+                    m75,
+                    m15,
+                    mp2,
+                    mpm,
+                    mpv,
+                    mpa
+                );
+                WebPluginTypeDescription = "MPEG media";
+                WebPluginTypeEnabled = 1;
+            };
+            "video/x-msvideo" =             {
+                WebPluginExtensions =                 (
+                    avi,
+                    vfw
+                );
+                WebPluginTypeDescription = "Video For Windows (AVI)";
+                WebPluginTypeEnabled = 1;
+            };
+        };
+    };
+    "com.apple.recentitems" =     {
+        RecentApplications =         {
+            Controller = CustomListItems;
+            CustomListItems =             (
+                                {
+                    Bookmark = <626f6f6b b4020000 00000410 30000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 e0010000 0c000000 01010000 4170706c 69636174 696f6e73 0a000000 01010000 53616661 72692e61 70700000 08000000 01060000 04000000 18000000 08000000 04030000 4f000000 00000000 08000000 04030000 45210000 00000000 08000000 01060000 3c000000 4c000000 08000000 00040000 41b72715 e2000000 18000000 01020000 02000000 00000000 0f000000 00000000 00000000 00000000 08000000 01010000 72657665 6e616e74 08000000 04030000 00703ba4 0b000000 08000000 00040000 41b98512 c9000000 24000000 01010000 41453042 45354444 2d333232 332d3344 45412d39 4543442d 45464233 43343933 45324345 18000000 01020000 81000000 01000800 ef170000 01000800 00000000 00000000 01000000 01010000 2f000000 00000000 01050000 a9000000 01020000 30353031 39643561 39366336 66353833 39393435 35663035 37666464 39316230 65306332 31613863 3b303030 30303030 303b3030 30303030 30303b30 30303030 30303030 30303030 3032303b 636f6d2e 6170706c 652e6170 702d7361 6e64626f 782e7265 61642d77 72697465 3b303030 30303030 313b3031 30303030 30343b30 30303030 30303030 30303032 3134353b 2f617070 6c696361 74696f6e 732f7361 66617269 2e617070 00000000 9c000000 feffffff 01000000 00000000 0c000000 04100000 2c000000 00000000 05100000 5c000000 00000000 10100000 7c000000 00000000 40100000 6c000000 00000000 02200000 18010000 00000000 10200000 9c000000 00000000 11200000 cc000000 00000000 12200000 ac000000 00000000 13200000 bc000000 00000000 20200000 f8000000 00000000 30200000 24010000 00000000 80f00000 2c010000 00000000>;
+                    CustomItemProperties =                     {
+                        "com.apple.LSSharedFileList.Binding" = <646e6962 00000000 02000000 00000000 00000000 00000000 00000000 20000000 00000000 66696c65 3a2f2f2f 4170706c 69636174 696f6e73 2f536166 6172692e 6170702f 10000000 00000000 636f6d2e 6170706c 652e5361 66617269 98277438 02000000 8e483010 02000000 e2152717>;
+                    };
+                    Name = Safari;
+                },
+                                {
+                    Bookmark = <626f6f6b b8020000 00000410 30000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 e4010000 0c000000 01010000 4170706c 69636174 696f6e73 0d000000 01010000 41707020 53746f72 652e6170 70000000 08000000 01060000 04000000 18000000 08000000 04030000 4f000000 00000000 08000000 04030000 b7f40000 00000000 08000000 01060000 40000000 50000000 08000000 00040000 41b74153 fb000000 18000000 01020000 02000000 00000000 0f000000 00000000 00000000 00000000 08000000 01010000 72657665 6e616e74 08000000 04030000 00703ba4 0b000000 08000000 00040000 41b98512 c9000000 24000000 01010000 41453042 45354444 2d333232 332d3344 45412d39 4543442d 45464233 43343933 45324345 18000000 01020000 81000000 01000800 ef170000 01000800 00000000 00000000 01000000 01010000 2f000000 00000000 01050000 ac000000 01020000 36326562 38376636 65363239 33343366 32303861 30633530 31306166 34323331 33326365 37336538 3b303030 30303030 303b3030 30303030 30303b30 30303030 30303030 30303030 3032303b 636f6d2e 6170706c 652e6170 702d7361 6e64626f 782e7265 61642d77 72697465 3b303030 30303030 313b3031 30303030 30343b30 30303030 30303030 30303066 3462373b 2f617070 6c696361 74696f6e 732f6170 70207374 6f72652e 61707000 9c000000 feffffff 01000000 00000000 0c000000 04100000 30000000 00000000 05100000 60000000 00000000 10100000 80000000 00000000 40100000 70000000 00000000 02200000 1c010000 00000000 10200000 a0000000 00000000 11200000 d0000000 00000000 12200000 b0000000 00000000 13200000 c0000000 00000000 20200000 fc000000 00000000 30200000 28010000 00000000 80f00000 30010000 00000000>;
+                    CustomItemProperties =                     {
+                        "com.apple.LSSharedFileList.Binding" = <646e6962 00000000 02000000 00000000 00000000 00000000 00000000 25000000 00000000 66696c65 3a2f2f2f 4170706c 69636174 696f6e73 2f417070 25323053 746f7265 2e617070 2f120000 00000000 00636f6d 2e617070 6c652e61 70707374 6f726540 04fb0b00 0000008e 48101002 000000fb 534117>;
+                    };
+                    Name = "App Store";
+                },
+                                {
+                    Bookmark = <626f6f6b ec020000 00000410 30000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 18020000 0c000000 01010000 4170706c 69636174 696f6e73 09000000 01010000 5574696c 69746965 73000000 0c000000 01010000 5465726d 696e616c 2e617070 0c000000 01060000 04000000 18000000 2c000000 08000000 04030000 4f000000 00000000 08000000 04030000 50000000 00000000 08000000 04030000 84280000 00000000 0c000000 01060000 54000000 64000000 74000000 08000000 00040000 41b7c9c8 d5000000 18000000 01020000 02000000 00000000 0f000000 00000000 00000000 00000000 08000000 01010000 72657665 6e616e74 08000000 04030000 00703ba4 0b000000 08000000 00040000 41b98512 c9000000 24000000 01010000 41453042 45354444 2d333232 332d3344 45412d39 4543442d 45464233 43343933 45324345 18000000 01020000 81000000 01000800 ef170000 01000800 00000000 00000000 01000000 01010000 2f000000 00000000 01050000 b5000000 01020000 32303363 37613930 39306533 30313262 34383634 39353338 35656231 39636339 64653365 65656639 3b303030 30303030 303b3030 30303030 30303b30 30303030 30303030 30303030 3032303b 636f6d2e 6170706c 652e6170 702d7361 6e64626f 782e7265 61642d77 72697465 3b303030 30303030 313b3031 30303030 30343b30 30303030 30303030 30303032 3838343b 2f617070 6c696361 74696f6e 732f7574 696c6974 6965732f 7465726d 696e616c 2e617070 00000000 9c000000 feffffff 01000000 00000000 0c000000 04100000 40000000 00000000 05100000 84000000 00000000 10100000 a8000000 00000000 40100000 98000000 00000000 02200000 44010000 00000000 10200000 c8000000 00000000 11200000 f8000000 00000000 12200000 d8000000 00000000 13200000 e8000000 00000000 20200000 24010000 00000000 30200000 50010000 00000000 80f00000 58010000 00000000>;
+                    CustomItemProperties =                     {
+                        "com.apple.LSSharedFileList.Binding" = <646e6962 00000000 02000000 00000000 00000000 00000000 00000000 2c000000 00000000 66696c65 3a2f2f2f 4170706c 69636174 696f6e73 2f557469 6c697469 65732f54 65726d69 6e616c2e 6170702f 12000000 00000000 636f6d2e 6170706c 652e5465 726d696e 616c805d 6e130000 00008e48 30100200 0000d5c8 c917>;
+                    };
+                    Name = Terminal;
+                }
+            );
+            MaxAmount = 10;
+        };
+    };
+    "com.apple.scheduler" =     {
+        AbsoluteSchedule =         {
+            "com.apple.SoftwareUpdate" =             {
+                SUCheckSchedulerTag =                 {
+                    Action =                     {
+                        process = "/System/Library/CoreServices/Software Update.app/Contents/Resources/SoftwareUpdateCheck";
+                        type = 0;
+                    };
+                    Timer =                     {
+                        date = "2001-01-01 08:00:00 +0000";
+                        repeatInterval = 604800;
+                    };
+                };
+            };
+        };
+    };
+    "com.apple.screensaver" =     {
+        askForPassword = 1;
+    };
+    "com.apple.security.cloudkeychainproxy3.keysToRegister" =     {
+        AlwaysKeys =         (
+        );
+        FirstUnlockKeys =         (
+            oak,
+            ">KeyParameters"
+        );
+        PendingKeys =         (
+        );
+        SyncWithPeersPending = 0;
+        UnlockedKeys =         (
+        );
+    };
+    "com.apple.sidebarlists" =     {
+        favoriteitems =         {
+            Controller = CustomListItems;
+            CustomListItems =             (
+                                {
+                    Alias = <00000000 01120003 00010000 cffa8bc9 0000482b 00000000 0002268c 0002268d 0000ce60 44480000 00000920 fffe0000 00000000 0000ffff ffff0001 001c0002 268c0002 25410002 253c0002 253b0000 002d0000 002a0000 0029000e 00320018 006d0079 0044006f 00630075 006d0065 006e0074 0073002e 00630061 006e006e 00650064 00530065 00610072 00630068 000f0012 00080072 00650076 0065006e 0061006e 00740012 005e5379 7374656d 2f4c6962 72617279 2f436f72 65536572 76696365 732f4669 6e646572 2e617070 2f436f6e 74656e74 732f5265 736f7572 6365732f 4d794c69 62726172 6965732f 6d79446f 63756d65 6e74732e 63616e6e 65645365 61726368 00130001 2f00ffff 0000>;
+                    CustomItemProperties =                     {
+                        "com.apple.LSSharedFileList.Binding" = <646e6962 00000000 02000000 00000000 00000000 00000000 00000000 67000000 00000000 66696c65 3a2f2f2f 53797374 656d2f4c 69627261 72792f43 6f726553 65727669 6365732f 46696e64 65722e61 70702f43 6f6e7465 6e74732f 5265736f 75726365 732f4d79 4c696272 61726965 732f6d79 446f6375 6d656e74 732e6361 6e6e6564 53656172 63682f00 00000000 00000000 00000000 00000000 00000000 00000000 000000>;
+                        "com.apple.LSSharedFileList.TemplateSystemSelector" = 1935819078;
+                    };
+                    Name = "All My Files";
+                },
+                                {
+                    CustomItemProperties =                     {
+                        "com.apple.LSSharedFileList.SpecialItemIdentifier" = "com.apple.LSSharedFileList.IsMeetingRoom";
+                    };
+                    Name = "domain-AirDrop";
+                    URL = "nwnode://domain-AirDrop";
+                },
+                                {
+                    Alias = <00000000 008c0003 00010000 cffa8bc9 0000482b 00000000 00000002 0000004f 0000cdc1 84210000 00000920 fffe0000 00000000 0000ffff ffff0001 0000000e 001a000c 00410070 0070006c 00690063 00610074 0069006f 006e0073 000f0012 00080072 00650076 0065006e 0061006e 00740012 000c4170 706c6963 6174696f 6e730013 00012f00 ffff0000>;
+                    CustomItemProperties =                     {
+                        "com.apple.LSSharedFileList.Binding" = <646e6962 00000000 01000000 00000000 00000000 00000000 00000000 00000000 00000000 73707061 02000000 00000000>;
+                        "com.apple.LSSharedFileList.TemplateSystemSelector" = 1935819120;
+                    };
+                    Name = Applications;
+                },
+                                {
+                    Alias = <00000000 00960003 00010000 cffa8bc9 0000482b 00000000 00062043 000620c0 0000cffa 8cbf0000 00000920 fffe0000 00000000 0000ffff ffff0001 00080006 20430002 6444000e 00100007 00440065 0073006b 0074006f 0070000f 00120008 00720065 00760065 006e0061 006e0074 00120011 55736572 732f7469 6d2f4465 736b746f 70000013 00012f00 00150002 000affff 0000>;
+                    CustomItemProperties =                     {
+                        "com.apple.LSSharedFileList.Binding" = <646e6962 00000000 01000000 00000000 00000000 00000000 00000000 00000000 00000000 6b736564 02000000 00000000>;
+                        "com.apple.LSSharedFileList.TemplateSystemSelector" = 1935819892;
+                    };
+                    Name = Desktop;
+                },
+                                {
+                    Alias = <00000000 009c0003 00010000 cffa8bc9 0000482b 00000000 00062043 00062044 0000cffa 8cbf0000 00000920 fffe0000 00000000 0000ffff ffff0001 00080006 20430002 6444000e 00140009 0044006f 00630075 006d0065 006e0074 0073000f 00120008 00720065 00760065 006e0061 006e0074 00120013 55736572 732f7469 6d2f446f 63756d65 6e747300 00130001 2f000015 0002000a ffff0000>;
+                    CustomItemProperties =                     {
+                        "com.apple.LSSharedFileList.Binding" = <646e6962 00000000 01000000 00000000 00000000 00000000 00000000 00000000 00000000 73636f64 02000000 00000000>;
+                        "com.apple.LSSharedFileList.TemplateSystemSelector" = 1935819875;
+                    };
+                    Name = Documents;
+                },
+                                {
+                    Alias = <00000000 009c0003 00010000 cffa8bc9 0000482b 00000000 00062043 00062046 0000cffa 8cbf0000 00000920 fffe0000 00000000 0000ffff ffff0001 00080006 20430002 6444000e 00140009 0044006f 0077006e 006c006f 00610064 0073000f 00120008 00720065 00760065 006e0061 006e0074 00120013 55736572 732f7469 6d2f446f 776e6c6f 61647300 00130001 2f000015 0002000a ffff0000>;
+                    CustomItemProperties =                     {
+                        "com.apple.LSSharedFileList.Binding" = <646e6962 00000000 01000000 00000000 00000000 00000000 00000000 00000000 00000000 666e7764 02000000 00000000>;
+                        "com.apple.LSSharedFileList.TemplateSystemSelector" = 1935819884;
+                    };
+                    Name = Downloads;
+                }
+            );
+            CustomListProperties =             {
+                "com.apple.LSSharedFileList.Restricted.upgraded" = 9027;
+            };
+        };
+        finderprojects =         {
+            Controller = CustomListItems;
+            CustomListItems =             (
+                                {
+                    CustomItemProperties =                     {
+                        "com.apple.LSSharedFileList.ItemIsHidden" = 0;
+                        kLSSharedTagFileListItemLabel = 6;
+                        kLSSharedTagFileListItemPinned = 0;
+                    };
+                    Name = Red;
+                    URL = "x-apple-findertag:Red";
+                },
+                                {
+                    CustomItemProperties =                     {
+                        "com.apple.LSSharedFileList.ItemIsHidden" = 0;
+                        kLSSharedTagFileListItemLabel = 7;
+                        kLSSharedTagFileListItemPinned = 0;
+                    };
+                    Name = Orange;
+                    URL = "x-apple-findertag:Orange";
+                },
+                                {
+                    CustomItemProperties =                     {
+                        "com.apple.LSSharedFileList.ItemIsHidden" = 0;
+                        kLSSharedTagFileListItemLabel = 5;
+                        kLSSharedTagFileListItemPinned = 0;
+                    };
+                    Name = Yellow;
+                    URL = "x-apple-findertag:Yellow";
+                },
+                                {
+                    CustomItemProperties =                     {
+                        "com.apple.LSSharedFileList.ItemIsHidden" = 0;
+                        kLSSharedTagFileListItemLabel = 2;
+                        kLSSharedTagFileListItemPinned = 0;
+                    };
+                    Name = Green;
+                    URL = "x-apple-findertag:Green";
+                },
+                                {
+                    CustomItemProperties =                     {
+                        "com.apple.LSSharedFileList.ItemIsHidden" = 0;
+                        kLSSharedTagFileListItemLabel = 4;
+                        kLSSharedTagFileListItemPinned = 0;
+                    };
+                    Name = Blue;
+                    URL = "x-apple-findertag:Blue";
+                },
+                                {
+                    CustomItemProperties =                     {
+                        "com.apple.LSSharedFileList.ItemIsHidden" = 0;
+                        kLSSharedTagFileListItemLabel = 3;
+                        kLSSharedTagFileListItemPinned = 0;
+                    };
+                    Name = Purple;
+                    URL = "x-apple-findertag:Purple";
+                },
+                                {
+                    CustomItemProperties =                     {
+                        "com.apple.LSSharedFileList.ItemIsHidden" = 0;
+                        kLSSharedTagFileListItemLabel = 1;
+                        kLSSharedTagFileListItemPinned = 0;
+                    };
+                    Name = Gray;
+                    URL = "x-apple-findertag:Gray";
+                },
+                                {
+                    CustomItemProperties =                     {
+                        "com.apple.LSSharedFileList.ItemIsHidden" = 0;
+                        kLSSharedTagFileListItemPinned = 0;
+                        kLSSharedTagFileListItemShowing = 0;
+                    };
+                    Name = Work;
+                    URL = "x-apple-findertag:Work";
+                },
+                                {
+                    CustomItemProperties =                     {
+                        "com.apple.LSSharedFileList.ItemIsHidden" = 0;
+                        kLSSharedTagFileListItemPinned = 0;
+                        kLSSharedTagFileListItemShowing = 0;
+                    };
+                    Name = Home;
+                    URL = "x-apple-findertag:Home";
+                },
+                                {
+                    CustomItemProperties =                     {
+                        "com.apple.LSSharedFileList.ItemIsHidden" = 0;
+                        kLSSharedTagFileListItemPinned = 0;
+                        kLSSharedTagFileListItemShowing = 0;
+                    };
+                    Name = Important;
+                    URL = "x-apple-findertag:Important";
+                }
+            );
+            CustomListProperties =             {
+                Version = 4;
+            };
+        };
+    };
+    "com.apple.spaces" =     {
+        SpacesDisplayConfiguration =         {
+            "Management Data" =             {
+                "Management Mode" = 1;
+                Monitors =                 (
+                                        {
+                        "Current Space" =                         {
+                            id64 = 3;
+                            type = 0;
+                            uuid = "";
+                            wsid = 1;
+                        };
+                        "Display Identifier" = Main;
+                        Spaces =                         (
+                                                        {
+                                id64 = 5;
+                                pid = 442;
+                                type = 2;
+                                uuid = dashboard;
+                            },
+                                                        {
+                                id64 = 3;
+                                type = 0;
+                                uuid = "";
+                                wsid = 1;
+                            }
+                        );
+                    }
+                );
+            };
+            "Space Properties" =             (
+                                {
+                    name = dashboard;
+                    windows =                     (
+                        76,
+                        75,
+                        74,
+                        73,
+                        82
+                    );
+                },
+                                {
+                    name = "";
+                    windows =                     (
+                        98,
+                        107,
+                        137,
+                        119,
+                        87,
+                        83
+                    );
+                }
+            );
+        };
+    };
+    "com.apple.spotlight" =     {
+        UserShortcuts =         {
+            ter =             {
+                "DISPLAY_NAME" = Terminal;
+                "LAST_USED" = "2014-07-27 17:41:42 +0000";
+                PATH = "/Applications/Utilities/Terminal.app";
+            };
+        };
+    };
+    "com.apple.storeagent" =     {
+        AllowLegacyConversion = 1;
+        EligibilityCheckDate = "2014-07-27 17:46:55 +0000";
+        LastAutoUpdateInvocation = "2014-07-27 17:41:44 +0000";
+        Storefront = "143441-1,13";
+    };
+    "com.apple.symbolichotkeys" =     {
+        AppleSymbolicHotKeys =         {
+            15 =             {
+                enabled = 0;
+            };
+            16 =             {
+                enabled = 0;
+            };
+            17 =             {
+                enabled = 0;
+            };
+            18 =             {
+                enabled = 0;
+            };
+            19 =             {
+                enabled = 0;
+            };
+            20 =             {
+                enabled = 0;
+            };
+            21 =             {
+                enabled = 0;
+            };
+            22 =             {
+                enabled = 0;
+            };
+            23 =             {
+                enabled = 0;
+            };
+            24 =             {
+                enabled = 0;
+            };
+            25 =             {
+                enabled = 0;
+            };
+            26 =             {
+                enabled = 0;
+            };
+            79 =             {
+                enabled = 1;
+            };
+            80 =             {
+                enabled = 1;
+            };
+            81 =             {
+                enabled = 1;
+            };
+            82 =             {
+                enabled = 1;
+            };
+        };
+    };
+    "com.apple.systemuiserver" =     {
+        "__NSEnableTSMDocumentWindowLevel" = 1;
+        "last-messagetrace-stamp" = "428175700.652464";
+    };
+    "com.apple.ubd" =     {
+        "hwUUID.dummy.0" = "5D03A0BF-CE13-5F8E-B5FC-17C99AA28FA2";
+        "indirectUUID.dummy.0" = "3958042E-BD08-4600-94F3-B2C7F9F6B738";
+        "peerUUIDv24.dummy.0" = "FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF";
+    };
+    "com.apple.universalaccess" =     {
+        UserAssignableHotKeys =         (
+                        {
+                enabled = 0;
+                key = 49;
+                modifier = 1048576;
+                sybmolichotkey = 60;
+            },
+                        {
+                enabled = 1;
+                key = 49;
+                modifier = 1048576;
+                sybmolichotkey = 64;
+            },
+                        {
+                enabled = 0;
+                key = 49;
+                modifier = 1572864;
+                sybmolichotkey = 61;
+            },
+                        {
+                enabled = 1;
+                key = 49;
+                modifier = 1572864;
+                sybmolichotkey = 65;
+            },
+                        {
+                enabled = "-1916407934959484928";
+                key = 49;
+                modifier = 257699086336;
+                sybmolichotkey = 60;
+            },
+                        {
+                enabled = "-1916407934959484927";
+                key = 49;
+                modifier = 274878955520;
+                sybmolichotkey = 64;
+            },
+                        {
+                enabled = "-1916407934959484928";
+                key = 49;
+                modifier = 261994577920;
+                sybmolichotkey = 61;
+            },
+                        {
+                enabled = "-1916407934959484927";
+                key = 49;
+                modifier = 279174447104;
+                sybmolichotkey = 65;
+            }
+        );
+        closeViewHotkeysEnabled = 0;
+        login = 0;
+    };
+    "com.apple.wifi.keychain-format" =     {
+        Version = 1;
+    };
+    "com.apple.xpc.activity" =     {
+        DateSubmitted =         {
+            "com.apple.EscrowSecurityAlert.daily" = "2014-07-27 17:41:34 +0000";
+            "com.apple.FileStatsAgent" = "2014-07-27 17:41:34 +0000";
+        };
+    };
+    loginwindow =     {
+        BuildVersionStampAsNumber = 27282272;
+        BuildVersionStampAsString = 13A603;
+        SystemVersionStampAsNumber = 168361984;
+        SystemVersionStampAsString = "10.9";
+    };
+}

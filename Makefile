@@ -6,7 +6,7 @@ binaries: chrome iterm notation skim skype pia
 
 script: bro pip
 
-lang: hask-pkg go-pkg
+lang: go-pkg hask-pkg yesod
 
 portprogs: erlang latex pastebin transmission vlc
 
@@ -38,6 +38,10 @@ git:
 github-ssh:
 	zsh github-ssh.zsh
 	open https://github.com/settings/ssh
+	curl -L -o /tmp/github.zip
+	        -O https://central.github.com/mac/latest
+	unzip /tmp/github.zip -d /Applications
+	rm -rf /tmp/github.zip
 
 golang: hg
 	hg clone -u release https://code.google.com/p/go /tmp/go || true
@@ -94,7 +98,9 @@ pia:
 	hdiutil mount -nobrowse /tmp/installer_osx.dmg
 	rm -rf "/Applications/Private Internet Access.app"
 	rm -rf /tmp/pia*
+	open https://mail.google.com/mail/u/0/#search/private+internet+access/14582442981bd2b0
 	open "/Volumes/Private Internet Access/Private Internet Access Installer.app"
+	say "You're attention please."
 
 clean-pia:
 	hdiutil unmount /Volumes/Private*
@@ -186,9 +192,11 @@ clean-uninstall:
 	rm -rf ~/.vim/
 	rm -rf ~/.z*
 	rm -rf .ghc
+	rm -rf /Applications/GitHub
 	rm -rf "/Applications/Google Chrome.app"
 	rm -rf /Applications/iTerm.app
 	rm -rf "/Applications/Notational Velocity.app"
+	rm -rf "/Applications/Private Internet Access.app"
 	rm -rf /Applications/Skype.app
 	rm -rf /Applications/Xcode.app
 	/Library/Haskell/bin/uninstall-hs thru 7.6.3 --remove
