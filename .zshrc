@@ -49,4 +49,7 @@ defaults write org.m0k.transmission WarningDonate -bool false
 defaults write org.m0k.transmission WarningLegal -bool false
 
 export PYTHONPATH=/opt/local/lib/python2.7/site-packages
-export PATH=.:$PATH
+
+export GOROOT=$HOME/go
+
+export PATH=.:$PATH:$GOROOT/bin

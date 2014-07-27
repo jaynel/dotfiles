@@ -1,13 +1,14 @@
-
 PORT := /opt/local/bin/port
 
-all: script vim binaries github-ssh dot bro portprogs git prefs
+all: script vim binaries github-ssh pia dot bro portprogs lang git clean-pia prefs
 
-binaries: chrome iterm notation skim skype
+binaries: chrome iterm notation skim skype pia
 
 script: bro pip
 
-portprogs: erlang haskell latex pastebin transmission vlc
+lang: hask-pkg go-pkg
+
+portprogs: erlang latex pastebin transmission vlc
 
 bro:
 	gem install bropages
@@ -38,8 +39,32 @@ github-ssh:
 	zsh github-ssh.zsh
 	open https://github.com/settings/ssh
 
+golang: hg
+	hg clone -u release https://code.google.com/p/go /tmp/go || true
+	cd /tmp/go/src && ./all.bash
+#	curl -L -o /tmp/go1.3.src.tar.gz \
+#	        -O http://golang.org/dl/go1.3.src.tar.gz
+
+go-pkg:
+	curl -L -o /tmp/go.pkg \
+	        -O http://golang.org/dl/go1.3.darwin-amd64-osx10.8.pkg
+	installer -pkg /tmp/go.pkg -target /
+	rm -rf /tmp/go.pkg
+	mkdir ~/go
+
 haskell: ensure-ports
 	$(PORT) install ghc hs-cabal-install
+
+hask-pkg:
+	curl -L -o /tmp/hask.pkg \
+	        -O http://www.haskell.org/platform/download/2013.2.0.0/Haskell%20Platform%202013.2.0.0%2064bit.pkg
+	installer -pkg /tmp/hask.pkg -target /
+	rm -rf /tmp/hask.pkg
+	cabal update
+	cabal install cabal-install
+
+hg: ensure-ports
+	$(PORT) install mercurial
 
 iterm:
 	curl -L -o /tmp/iterm.zip \
@@ -63,11 +88,23 @@ notation:
 pastebin: ensure-ports
 	$(PORT) install pastebinit
 
+pia:
+	curl -L -o /tmp/installer_osx.dmg \
+		-O https://www.privateinternetaccess.com/installer/installer_osx.dmg
+	hdiutil mount -nobrowse /tmp/installer_osx.dmg
+	rm -rf "/Applications/Private Internet Access.app"
+	rm -rf /tmp/pia*
+	open "/Volumes/Private Internet Access/Private Internet Access Installer.app"
+
+clean-pia:
+	hdiutil unmount /Volumes/Private*
+	rm -rf /tmp/installer_osx.dmg
+
 pip:
 	easy_install pip
 
 ensure-ports:
-	(test -e $(PORT) && 0)  || make ports
+	test -e $(PORT)  || make ports
 
 ports:
 	xcode-select --install || true
@@ -117,6 +154,7 @@ update: vundler prezto
 	$(PORT) -v selfupdate
 	$(PORT) -v upgrade outdated
 	gem update all
+	cabal update
 
 vim: vundler
 	vim +PluginInstall +qall
@@ -129,6 +167,16 @@ vundler:
 		cd ~/.vim/bundle/Vundle.vim/ && \
 		git pull origin master) \
 	|| git clone https://github.com/gmarik/Vundle.vim ~/.vim/bundle/Vundle.vim
+
+yesod:
+	cabal install yesod-platform yesod-bin --max-backjumps=-1 --reorder-goals
+
+yosemite:
+	cd "/Applications/Install OS X Yosemite Beta.app/Contents/Resources" && \
+	    ./createinstallmedia \
+	        --volume /Volumes/PEN \
+	        --applicationpath "/Applications/Install OS X Yosemite Beta.app" \
+	        --nointeraction
 
 .IGNORE: clean-uninstall
 
@@ -143,6 +191,10 @@ clean-uninstall:
 	rm -rf "/Applications/Notational Velocity.app"
 	rm -rf /Applications/Skype.app
 	rm -rf /Applications/Xcode.app
+	/Library/Haskell/bin/uninstall-hs thru 7.6.3 --remove
+	rm -rf /Library/Haskell
+	rm -rf /usr/local/go
+	rm -rf /etc/paths.d/go
 	rm -rf /opt
 	rm -rf /tmp/macports* /tmp/MacPorts*
 	rm -rf /Applications/MacPorts/
